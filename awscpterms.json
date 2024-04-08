@@ -1,0 +1,1649 @@
+       [
+       {
+          "id": "1",
+          "Term": "Amazon RDS (Relational Database Service)",
+          "correct_answer": "Amazon RDS is a managed database service provided by Amazon Web Services (AWS) that simplifies the setup, operation, and scaling of relational databases in the cloud. RDS supports popular database engines such as MySQL, PostgreSQL, MariaDB, Oracle, and Microsoft SQL Server, allowing users to choose the engine that best fits their application requirements. With RDS, AWS handles routine database tasks such as provisioning, patching, backup, recovery, and scaling, freeing users from the administrative burdens of database management. RDS instances can be easily resized or replicated to accommodate changes in workload or improve fault tolerance. RDS is commonly used for a wide range of applications, including web hosting, e-commerce, content management, and business analytics.",
+          "question_type": "database",
+          "test": "amazon web service cloud practitioner",
+        },
+        {
+          "id": "2",
+          "Term": "Amazon DynamoDB",
+          "correct_answer": "Amazon DynamoDB is a fully managed NoSQL database service provided by Amazon Web Services (AWS) for applications requiring low-latency data access. DynamoDB offers high performance, scalability, and reliability, supporting key-value and document data models. It automatically replicates data across multiple Availability Zones within a region to ensure high availability and durability. DynamoDB also offers features such as automatic scaling, backup and restore capabilities, and fine-grained access control. It is commonly used for a wide range of use cases, including web and mobile applications, gaming, IoT (Internet of Things), ad tech, and more.",
+          "question_type": "database",
+          "test": "amazon web service cloud practitioner"
+        },
+        {
+          "id": "3",
+          "Term": "Amazon Redshift",
+          "correct_answer": "Amazon Redshift is a fully managed data warehousing service provided by Amazon Web Services (AWS). It allows users to analyze large datasets using SQL queries, making it suitable for business intelligence and data analytics applications. Redshift is optimized for high-performance queries and can handle petabyte-scale data warehouses. It offers features such as automatic provisioning, encryption, and integration with other AWS services. Redshift is commonly used for complex analytical queries, reporting, and data visualization.",
+          "question_type": "database",
+          "test": "amazon web service cloud practitioner"
+        },
+        {
+          "id": "4",
+          "Term": "Amazon Aurora",
+          "correct_answer": "Amazon Aurora is a high-performance relational database engine compatible with MySQL and PostgreSQL, designed for high availability and scalability. It is fully managed by Amazon Web Services (AWS) and offers features such as automated backups, continuous monitoring, and automatic failover. Aurora provides five times better performance than standard MySQL databases and three times better performance than standard PostgreSQL databases. It is suitable for a wide range of use cases, including OLTP (online transaction processing), analytics, and data warehousing.",
+          "question_type": "database",
+          "test": "amazon web service cloud practitioner"
+        },
+        {
+          "id": "5",
+          "Term": "Amazon DocumentDB (with MongoDB compatibility)",
+          "correct_answer": "Amazon DocumentDB is a fully managed document database service provided by Amazon Web Services (AWS) that is compatible with MongoDB. It offers scalable, high-performance storage for JSON-like documents, making it suitable for document-oriented applications. DocumentDB is fully managed, allowing users to focus on developing applications without worrying about database management tasks such as provisioning, patching, and backups. It supports MongoDB-compatible APIs and tools, making it easy to migrate existing MongoDB applications to DocumentDB.",
+          "question_type": "database",
+          "test": "amazon web service cloud practitioner"
+        },
+        {
+            "id": "6",
+            "Term": "Amazon S3 (Simple Storage Service)",
+            "correct_answer": "Amazon S3 is a scalable object storage service provided by Amazon Web Services (AWS) for storing and retrieving any amount of data from anywhere on the web. S3 is designed for 99.999999999% (11 9's) durability of objects and 99.99% availability over a given year. It provides easy-to-use management features, such as lifecycle policies, versioning, and encryption, to help users manage their data efficiently. S3 is commonly used for a wide range of use cases, including backup and restore, content distribution, data lakes, and static website hosting. It offers integration with other AWS services, such as Lambda, Glacier, and CloudFront.",
+            "question_type": "storage",
+            "test": "amazon web service cloud practitioner"
+        },
+        {
+            "id": "7",
+            "Term": "Amazon EC2 (Elastic Compute Cloud)",
+            "correct_answer": "Amazon EC2 is a web service that allows users to rent virtual machines (instances) on which they can run their own applications. EC2 instances can be quickly scaled up or down to meet changing compute demands, and users only pay for the computing capacity they actually use. EC2 offers a wide selection of instance types optimized for different use cases, including general-purpose, compute-optimized, memory-optimized, and storage-optimized instances. Users can choose from a variety of operating systems and configure their instances with custom security settings, networking options, and storage volumes.",
+            "question_type": "compute",
+            "test": "amazon web service cloud practitioner"
+        },
+        {
+            "id": "8",
+            "Term": "Amazon VPC (Virtual Private Cloud)",
+            "correct_answer": "Amazon VPC is a virtual network service that allows users to provision a logically isolated section of the AWS Cloud where they can launch AWS resources in a virtual network. VPC provides granular control over network configuration, including IP addressing, subnets, routing tables, and network gateways. Users can define their own virtual network topology and connect it to their existing on-premises infrastructure using VPN (Virtual Private Network) or AWS Direct Connect.",
+            "question_type": "networking",
+            "test": "amazon web service cloud practitioner"
+        },
+        {
+            "id": "9",
+            "Term": "AWS IAM (Identity and Access Management)",
+            "correct_answer": "AWS IAM is a service that enables users to securely control access to AWS services and resources. IAM allows users to create and manage users, groups, and roles, and define permissions to access specific AWS resources. By using IAM, users can enforce security best practices, such as the principle of least privilege, and ensure compliance with regulatory requirements. IAM integrates with other AWS services to provide fine-grained access control and authentication mechanisms, such as multi-factor authentication (MFA) and identity federation.",
+            "question_type": "security",
+            "test": "amazon web service cloud practitioner"
+        },
+        {
+            "id": "10",
+            "Term": "Amazon CloudWatch",
+            "correct_answer": "Amazon CloudWatch is a monitoring and observability service that provides data and actionable insights for AWS resources, applications, and services. CloudWatch collects and tracks metrics, logs, and events from various AWS services, allowing users to monitor the performance, availability, and health of their infrastructure in real-time. CloudWatch offers features such as alarms, dashboards, and automated actions to help users detect and respond to operational issues quickly. It integrates with other AWS services to provide comprehensive monitoring and troubleshooting capabilities.",
+            "question_type": "monitoring",
+            "test": "amazon web service cloud practitioner"
+        },
+        {
+            "id": "11",
+            "Term": "AWS Lambda",
+            "correct_answer": "AWS Lambda is a serverless computing service that enables users to run code in response to events without provisioning or managing servers. Lambda allows users to upload their code and define triggers, such as HTTP requests, S3 bucket events, or database changes, to execute the code automatically. Lambda automatically scales the execution environment to handle incoming requests and charges users only for the compute time consumed by their code. It supports multiple programming languages, including Node.js, Python, Java, and Go, making it suitable for a wide range of use cases, such as data processing, real-time stream processing, and web application backends.",
+            "question_type": "compute",
+            "test": "amazon web service cloud practitioner"
+        },
+        {
+            "id": "12",
+            "Term": "Amazon Route 53",
+            "correct_answer": "Amazon Route 53 is a scalable and highly available Domain Name System (DNS) web service provided by AWS for routing end users to internet applications. Route 53 manages domain registration and DNS resolution, allowing users to create and manage DNS records, such as A, AAAA, CNAME, and MX records, to route traffic to their applications reliably. Route 53 offers features such as health checks, failover routing, and traffic policies to ensure high availability and fault tolerance. It integrates with other AWS services, such as CloudFront and S3, to provide a complete solution for hosting and managing internet-facing applications.",
+            "question_type": "networking",
+            "test": "amazon web service cloud practitioner"
+        },
+    
+        {
+            "id": "14",
+            "Term": "AWS CloudFormation",
+            "correct_answer": "AWS CloudFormation is a service that allows users to define and provision AWS infrastructure as code in a predictable and repeatable manner. CloudFormation uses templates, which are JSON or YAML formatted text files, to describe the desired state of AWS resources and their relationships. Users can define parameters, mappings, and conditions in templates to create dynamic and reusable infrastructure configurations. CloudFormation provisions and configures resources automatically based on the templates, ensuring consistency and reducing the risk of errors. It supports a wide range of AWS services and features, making it suitable for building and managing complex infrastructures.",
+            "question_type": "automation",
+            "test": "amazon web service cloud practitioner"
+        },
+        ,{
+            "id": "16",
+            "Term": "AWS ECS (Elastic Container Service)",
+            "correct_answer": "AWS ECS is a fully managed container orchestration service that allows users to run, stop, and manage Docker containers on a cluster of EC2 instances. ECS simplifies the deployment and scaling of containerized applications, providing features such as service discovery, load balancing, and auto-scaling. Users can define task definitions to specify container configurations and dependencies, and ECS schedules tasks across the cluster based on resource availability and placement constraints. ECS integrates with other AWS services, such as ECR (Elastic Container Registry) and CloudWatch, to provide comprehensive container management capabilities.",
+            "question_type": "containers",
+            "test": "amazon web service cloud practitioner"
+            },
+            {
+            "id": "17",
+            "Term": "Amazon EBS (Elastic Block Store)",
+            "correct_answer": "Amazon EBS is a high-performance block storage service provided by AWS for use with EC2 instances. EBS volumes provide durable and persistent storage that can be attached to EC2 instances as block devices. EBS offers features such as snapshots, encryption, and different volume types optimized for different use cases, such as throughput-optimized SSDs and cold HDDs. EBS volumes can be dynamically resized and moved between EC2 instances, making them suitable for a wide range of applications, including databases, file systems, and container storage.",
+            "question_type": "storage",
+            "test": "amazon web service cloud practitioner"
+            },
+            {
+            "id": "18",
+            "Term": "AWS Glacier",
+            "correct_answer": "AWS Glacier is a low-cost, secure, and durable storage service for data archiving and long-term backup. Glacier is designed for data that is infrequently accessed and requires long-term retention, offering features such as configurable data retrieval times, lifecycle policies, and data encryption. Users can store petabytes of data in Glacier at a fraction of the cost of traditional storage solutions. Glacier integrates with other AWS services, such as S3 and Data Pipeline, to provide a complete solution for data archiving and backup.",
+            "question_type": "storage",
+            "test": "amazon web service cloud practitioner"
+            },
+            {
+            "id": "19",
+            "Term": "AWS Direct Connect",
+            "correct_answer": "AWS Direct Connect is a dedicated network connection service provided by AWS that allows users to establish private connectivity between their on-premises data centers and AWS Cloud infrastructure. Direct Connect provides a high-bandwidth, low-latency connection to AWS, enabling users to access AWS services and resources securely and reliably. Users can provision multiple connections to different AWS regions and configure redundant connections for high availability. Direct Connect integrates with other AWS services, such as VPC and Direct Connect Gateway, to provide a seamless hybrid cloud networking experience.",
+            "question_type": "networking",
+            "test": "amazon web service cloud practitioner"
+            },
+            {
+            "id": "20",
+            "Term": "Amazon SES (Simple Email Service)",
+            "correct_answer": "Amazon SES is a scalable and cost-effective email sending service provided by AWS. SES allows users to send transactional, promotional, and marketing emails to customers reliably and securely. SES offers features such as email validation, DKIM (DomainKeys Identified Mail) signing, and bounce and complaint tracking to ensure high deliverability and compliance with email standards. Users can integrate SES with their applications using SMTP (Simple Mail Transfer Protocol) or the AWS SDKs (Software Development Kits) to send emails programmatically. SES is commonly used by businesses of all sizes for customer communications, marketing campaigns, and transactional notifications.",
+            "question_type": "messaging",
+            "test": "amazon web service cloud practitioner"
+            },
+            {
+                "id": "21",
+                "Term": "Amazon Kinesis",
+                "correct_answer": "Amazon Kinesis is a platform for collecting, processing, and analyzing real-time streaming data at scale. Kinesis offers three services: Kinesis Data Streams for ingesting and processing real-time data streams, Kinesis Data Firehose for loading data streams into data lakes or analytics services, and Kinesis Data Analytics for analyzing streaming data with SQL or Apache Flink. Kinesis is commonly used for use cases such as real-time analytics, log and event data collection, and IoT data processing.",
+                "question_type": "analytics",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "22",
+                "Term": "AWS Glue",
+                "correct_answer": "AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy to prepare and load data for analytics. Glue automatically discovers and catalogs data stored in various sources, such as databases, data lakes, and S3 buckets, and generates ETL scripts to transform and move the data into a target destination. Glue offers features such as schema inference, job scheduling, and data lineage tracking to simplify the ETL process and improve data quality. It integrates with other AWS services, such as S3, Redshift, and Athena, to provide a comprehensive data analytics solution.",
+                "question_type": "analytics",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "23",
+                "Term": "AWS Athena",
+                "correct_answer": "AWS Athena is an interactive query service that allows users to analyze data stored in Amazon S3 using standard SQL queries. Athena is serverless, meaning there is no infrastructure to manage, and users only pay for the queries they execute. Athena integrates with various data formats, such as CSV, JSON, and Parquet, and supports complex queries, joins, and aggregations. It is commonly used for ad-hoc querying, log analysis, and data exploration tasks.",
+                "question_type": "analytics",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "24",
+                "Term": "AWS Step Functions",
+                "correct_answer": "AWS Step Functions is a serverless orchestration service that allows users to coordinate and automate workflows using visual workflows. Step Functions allow users to define state machines with a series of steps, including tasks, decisions, and error handling, to execute business processes or workflows. Step Functions support integration with other AWS services, such as Lambda, ECS, and SNS, enabling users to build complex workflows that respond to events and scale automatically.",
+                "question_type": "automation",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "25",
+                "Term": "Amazon CloudFront",
+                "correct_answer": "Amazon CloudFront is a content delivery network (CDN) service provided by AWS for delivering web content and applications with low latency and high transfer speeds. CloudFront caches content at edge locations around the world, reducing the latency for end users accessing content from distant locations. CloudFront integrates with other AWS services, such as S3, EC2, and Lambda, and offers features such as SSL/TLS encryption, custom caching rules, and real-time logs for monitoring and security.",
+                "question_type": "networking",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "26",
+                "Term": "AWS CodePipeline",
+                "correct_answer": "AWS CodePipeline is a continuous integration and continuous delivery (CI/CD) service that automates the build, test, and deployment phases of application development. CodePipeline allows users to define a series of stages, such as source code repositories, build servers, and deployment environments, and automate the movement of code through these stages. CodePipeline integrates with other AWS services, such as CodeBuild, CodeDeploy, and Lambda, to provide a fully managed CI/CD pipeline.",
+                "question_type": "automation",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "27",
+                "Term": "Amazon Elasticsearch Service",
+                "correct_answer": "Amazon Elasticsearch Service is a fully managed service provided by AWS for deploying, operating, and scaling Elasticsearch clusters in the cloud. Elasticsearch is a distributed search and analytics engine that allows users to perform complex search queries and analysis on large volumes of data. Amazon ES offers features such as automatic scaling, data durability, and integration with other AWS services, such as Kinesis, CloudWatch, and S3.",
+                "question_type": "analytics",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "28",
+                "Term": "AWS DataSync",
+                "correct_answer": "AWS DataSync is a data transfer service that simplifies and accelerates moving large amounts of data between on-premises storage systems and AWS storage services. DataSync automatically handles data encryption, data integrity verification, and network optimization to ensure fast and secure data transfers. DataSync supports use cases such as data migration, data protection, and data synchronization, and integrates with other AWS services, such as S3, EFS, and FSx for Windows File Server.",
+                "question_type": "storage",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "29",
+                "Term": "AWS Batch",
+                "correct_answer": "AWS Batch is a fully managed batch processing service provided by AWS for running batch computing workloads in the cloud. Batch allows users to define and execute batch jobs with dependencies, scheduling, and scaling requirements. Batch automatically provisions and scales compute resources based on the workload, optimizing resource utilization and cost. Batch integrates with other AWS services, such as EC2, S3, and Lambda, to provide a scalable and flexible batch processing solution.",
+                "question_type": "compute",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "30",
+                "Term": "Amazon MQ",
+                "correct_answer": "Amazon MQ is a managed message broker service provided by AWS for deploying and managing message-oriented middleware in the cloud. Amazon MQ supports industry-standard messaging protocols, such as JMS (Java Message Service), AMQP (Advanced Message Queuing Protocol), and MQTT (Message Queuing Telemetry Transport), making it compatible with existing messaging applications and clients. Amazon MQ offers features such as message persistence, high availability, and message filtering, and integrates with other AWS services, such as Lambda, S3, and CloudWatch.",
+                "question_type": "messaging",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "31",
+                "Term": "AWS CodeDeploy",
+                "correct_answer": "AWS CodeDeploy is a fully managed deployment service provided by AWS for automating code deployments to EC2 instances, Lambda functions, and on-premises servers. CodeDeploy allows users to deploy applications from various sources, such as S3 buckets, GitHub repositories, or Bitbucket repositories, to multiple deployment targets simultaneously. CodeDeploy automates the deployment process, handles rollback procedures, and provides real-time status updates, making it easy to deploy applications reliably and consistently.",
+                "question_type": "automation",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "32",
+                "Term": "Amazon Aurora Serverless",
+                "correct_answer": "Amazon Aurora Serverless is an on-demand, auto-scaling configuration for Amazon Aurora, a high-performance relational database engine compatible with MySQL and PostgreSQL. Aurora Serverless automatically adjusts the database capacity based on application demand, scaling compute and memory resources up or down in response to workload changes. Aurora Serverless eliminates the need for capacity planning and provisioning, allowing users to focus on developing applications without managing database infrastructure.",
+                "question_type": "database",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "33",
+                "Term": "Amazon Elasticache",
+                "correct_answer": "Amazon ElastiCache is a fully managed in-memory caching service provided by AWS for speeding up dynamic web applications by caching data in memory. ElastiCache supports popular caching engines such as Redis and Memcached, offering high performance, scalability, and reliability. ElastiCache improves application responsiveness and reduces database load by storing frequently accessed data in memory, thereby reducing the latency of read-heavy workloads.",
+                "question_type": "database",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "34",
+                "Term": "Amazon Neptune",
+                "correct_answer": "Amazon Neptune is a fully managed graph database service provided by AWS for building and querying highly connected datasets with complex relationships. Neptune supports two popular graph models, Property Graph and RDF (Resource Description Framework), and allows users to run graph queries using standard APIs such as Gremlin and SPARQL. Neptune is optimized for storing and querying billions of relationships, making it suitable for use cases such as social networking, recommendation engines, and fraud detection.",
+                "question_type": "database",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "35",
+                "Term": "AWS AppSync",
+                "correct_answer": "AWS AppSync is a fully managed GraphQL service provided by AWS for building real-time and offline-enabled applications. AppSync allows users to define a GraphQL schema and resolvers to connect to various data sources, including DynamoDB, RDS, and Elasticsearch. AppSync automatically handles real-time data synchronization, offline data access, and conflict resolution, making it easy to develop responsive and scalable applications with GraphQL.",
+                "question_type": "database",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "36",
+                "Term": "Amazon QLDB (Quantum Ledger Database)",
+                "correct_answer": "Amazon QLDB is a fully managed ledger database service provided by AWS for maintaining a complete and immutable history of transactions. QLDB uses a transparent and cryptographically verifiable journal to record every application data change, providing a tamper-proof and auditable transaction log. QLDB supports ACID (Atomicity, Consistency, Isolation, Durability) transactions and allows users to query the current and historical state of their data using SQL-like queries.",
+                "question_type": "database",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "37",
+                "Term": "AWS IoT Core",
+                "correct_answer": "AWS IoT Core is a managed cloud service provided by AWS for connecting and managing IoT (Internet of Things) devices securely at scale. IoT Core allows users to securely communicate with and control IoT devices using MQTT (Message Queuing Telemetry Transport) and HTTP protocols. IoT Core supports device authentication, authorization, and message encryption, ensuring the security and integrity of IoT communications. It integrates with other AWS services, such as Lambda and S3, to process and analyze IoT data.",
+                "question_type": "networking",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "38",
+                "Term": "AWS Certificate Manager",
+                "correct_answer": "AWS Certificate Manager is a service provided by AWS for provisioning, managing, and deploying SSL/TLS certificates for use with AWS services and internal resources. ACM provides free SSL/TLS certificates that are automatically renewed and integrated with other AWS services, such as CloudFront, Elastic Load Balancing, and API Gateway. ACM simplifies the process of securing applications and infrastructure with SSL/TLS encryption, ensuring data privacy and compliance with security best practices.",
+                "question_type": "security",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "39",
+                "Term": "AWS Key Management Service (KMS)",
+                "correct_answer": "AWS Key Management Service (KMS) is a managed service provided by AWS for creating and controlling encryption keys used to encrypt data stored in AWS services and applications. KMS allows users to generate, rotate, and revoke encryption keys, as well as define access policies and audit key usage. KMS integrates with other AWS services, such as S3, EBS, and RDS, to provide seamless encryption and decryption of data at rest and in transit.",
+                "question_type": "security",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "40",
+                "Term": "AWS Organizations",
+                "correct_answer": "AWS Organizations is a service provided by AWS for centrally managing and governing multiple AWS accounts within an organization. Organizations allow users to create and manage groups of accounts, define policies for resource management and access control, and automate account provisioning and management tasks. Organizations provide features such as consolidated billing, service control policies, and cross-account access to simplify the management of complex AWS environments.",
+                "question_type": "management",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "41",
+                "Term": "AWS Data Pipeline",
+                "correct_answer": "AWS Data Pipeline is a managed orchestration service provided by AWS for automating the movement and transformation of data across various AWS services and on-premises data sources. Data Pipeline allows users to define data-driven workflows, known as pipelines, using a visual interface or JSON templates. Users can schedule and monitor data processing activities, such as data import/export, data transformation, and data analysis, and integrate with other AWS services, such as S3, DynamoDB, EMR, and RDS.",
+                "question_type": "automation",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "42",
+                "Term": "Amazon Polly",
+                "correct_answer": "Amazon Polly is a text-to-speech (TTS) service provided by AWS for converting text into lifelike speech. Polly supports multiple languages and voices, allowing users to customize the pronunciation, intonation, and emotion of the generated speech. Polly offers features such as neural text-to-speech (NTTS) technology, speech synthesis markup language (SSML) support, and real-time speech generation, making it suitable for applications such as voice-enabled interfaces, voice broadcasting, and interactive storytelling.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "43",
+                "Term": "Amazon Lex",
+                "correct_answer": "Amazon Lex is a service provided by AWS for building conversational interfaces, also known as chatbots or virtual agents. Lex uses automatic speech recognition (ASR) and natural language understanding (NLU) to interpret user input and respond with appropriate actions or responses. Lex allows users to define conversational flows, prompts, and backend logic using a visual interface or code. It integrates with other AWS services, such as Lambda and Polly, to provide end-to-end chatbot solutions for various use cases, such as customer service, information retrieval, and task automation.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "44",
+                "Term": "Amazon Translate",
+                "correct_answer": "Amazon Translate is a neural machine translation service provided by AWS for translating text between languages with high accuracy and fluency. Translate supports multiple languages and provides on-the-fly translation of text into the desired target language. It offers features such as custom terminology, batch translation, and real-time translation, making it suitable for applications such as multilingual content generation, localization, and global communication.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "45",
+                "Term": "Amazon Rekognition",
+                "correct_answer": "Amazon Rekognition is a deep learning-based image and video analysis service provided by AWS for analyzing and recognizing objects, faces, scenes, and activities in images and videos. Rekognition offers features such as facial recognition, object detection, text detection, and content moderation, enabling users to build applications for visual search, content moderation, security surveillance, and media analysis.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "46",
+                "Term": "Amazon SageMaker",
+                "correct_answer": "Amazon SageMaker is a fully managed machine learning service provided by AWS for building, training, and deploying machine learning models at scale. SageMaker offers a complete set of tools and capabilities for every step of the machine learning workflow, including data preprocessing, model training, hyperparameter tuning, and model deployment. It supports popular machine learning frameworks such as TensorFlow, PyTorch, and MXNet, and provides features such as built-in algorithms, automatic model tuning, and managed infrastructure.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "47",
+                "Term": "Amazon Forecast",
+                "correct_answer": "Amazon Forecast is a fully managed service provided by AWS for generating accurate and scalable forecasts based on time-series data. Forecast uses machine learning algorithms to automatically train, optimize, and deploy forecasting models, enabling users to predict future trends and make informed decisions. It supports features such as automatic data cleaning, model selection, and forecasting accuracy evaluation, making it suitable for demand forecasting, inventory planning, and financial forecasting applications.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "48",
+                "Term": "AWS DeepLens",
+                "correct_answer": "AWS DeepLens is a deep learning-enabled video camera provided by AWS for building and deploying computer vision applications. DeepLens integrates a high-definition camera, an Intel Atom processor, and deep learning software, allowing users to run deep learning models directly on the device. It supports frameworks such as TensorFlow and Apache MXNet and provides features such as real-time inference, model training, and cloud integration, making it suitable for applications such as object detection, face recognition, and activity recognition.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "49",
+                "Term": "Amazon Textract",
+                "correct_answer": "Amazon Textract is a machine learning service provided by AWS for extracting text and data from scanned documents, such as invoices, contracts, and forms. Textract uses advanced machine learning algorithms to analyze documents and extract structured data, such as text, tables, and key-value pairs, with high accuracy. It supports features such as form recognition, handwriting recognition, and document classification, making it suitable for document digitization, data entry automation, and content analysis applications.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "50",
+                "Term": "AWS Amplify",
+                "correct_answer": "AWS Amplify is a set of tools and services provided by AWS for building full-stack web and mobile applications. Amplify offers features such as authentication, data storage, offline data access, and analytics, allowing developers to focus on building core application functionality without managing infrastructure. It supports popular front-end frameworks such as React, Angular, and Vue.js, and provides integration with AWS services, such as API Gateway, Lambda, and DynamoDB.",
+                "question_type": "development",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "51",
+                "Term": "Amazon Kendra",
+                "correct_answer": "Amazon Kendra is an intelligent search service provided by AWS for powering powerful search capabilities within applications and websites. Kendra uses machine learning algorithms to understand natural language queries and return accurate search results from various data sources, including documents, FAQs, and databases. It supports features such as federated search, relevance tuning, and personalized search results, making it suitable for enterprise search, customer support portals, and knowledge management systems.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "52",
+                "Term": "Amazon Managed Blockchain",
+                "correct_answer": "Amazon Managed Blockchain is a fully managed blockchain service provided by AWS for creating and managing scalable blockchain networks using popular open-source frameworks such as Hyperledger Fabric and Ethereum. Managed Blockchain allows users to set up blockchain networks with just a few clicks, without the need for manual provisioning or configuration. It offers features such as automated scaling, identity management, and monitoring, making it suitable for applications such as supply chain management, financial transactions, and decentralized applications.",
+                "question_type": "blockchain",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "53",
+                "Term": "Amazon Chime",
+                "correct_answer": "Amazon Chime is a communication service provided by AWS for online meetings, video conferencing, and messaging. Chime allows users to conduct virtual meetings with high-quality audio and video, share screens, and collaborate on documents in real time. It supports features such as chat rooms, file sharing, and integration with third-party applications, making it suitable for remote work, virtual classrooms, and team collaboration.",
+                "question_type": "communication",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "54",
+                "Term": "AWS IoT Greengrass",
+                "correct_answer": "AWS IoT Greengrass is a software that extends AWS IoT services to edge devices, allowing them to run local compute, messaging, and machine learning capabilities for IoT applications. Greengrass enables devices to perform data processing and actuation locally, even when disconnected from the cloud, reducing latency and improving responsiveness. It supports features such as Lambda functions, device shadowing, and secure connectivity, making it suitable for edge computing, industrial automation, and IoT edge analytics.",
+                "question_type": "IoT",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "55",
+                "Term": "AWS Elemental MediaLive",
+                "correct_answer": "AWS Elemental MediaLive is a broadcast-grade live video processing service provided by AWS for encoding, packaging, and delivering live video streams to viewers over the internet. MediaLive supports features such as live transcoding, ad insertion, and content protection, enabling broadcasters to deliver high-quality video experiences across a wide range of devices and platforms. It integrates with other AWS services, such as CloudFront and MediaPackage, to provide end-to-end video workflow solutions.",
+                "question_type": "media",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "56",
+                "Term": "Amazon Connect",
+                "correct_answer": "Amazon Connect is a cloud-based contact center service provided by AWS for building and operating customer contact centers with ease. Connect allows users to set up virtual contact centers in minutes, without the need for specialized hardware or software. It offers features such as automatic call routing, interactive voice response (IVR), and real-time analytics, making it suitable for customer service, helpdesk support, and outbound sales operations.",
+                "question_type": "communication",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "57",
+                "Term": "AWS App Runner",
+                "correct_answer": "AWS App Runner is a fully managed containerized application deployment service provided by AWS for building and running web applications at scale. App Runner allows users to deploy containerized applications from source code or container images with automatic scaling and high availability. It abstracts away infrastructure management tasks and provides features such as built-in load balancing, auto-scaling, and integrated logging and monitoring.",
+                "question_type": "development",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "58",
+                "Term": "AWS Step Functions Data Science SDK",
+                "correct_answer": "AWS Step Functions Data Science SDK is a Python library provided by AWS for building and orchestrating machine learning workflows using AWS Step Functions. The SDK allows data scientists to define and execute workflows as state machines, chaining together multiple machine learning tasks such as data preprocessing, model training, and model deployment. It provides a high-level abstraction for building scalable and reproducible machine learning pipelines on AWS.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "59",
+                "Term": "Amazon FSx",
+                "correct_answer": "Amazon FSx is a fully managed file storage service provided by AWS for deploying scalable and high-performance file systems in the cloud. FSx offers two types of file systems: Amazon FSx for Windows File Server, which is compatible with Microsoft Windows applications, and Amazon FSx for Lustre, which is optimized for high-performance computing (HPC) workloads. FSx provides features such as data deduplication, automated backups, and integration with other AWS services, making it suitable for a wide range of file-based workloads.",
+                "question_type": "storage",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "60",
+                "Term": "AWS WAF (Web Application Firewall)",
+                "correct_answer": "AWS WAF (Web Application Firewall) is a managed security service provided by AWS for protecting web applications from common web exploits and security threats. WAF allows users to create custom rules and policies to filter incoming web traffic and block malicious requests, such as SQL injection, cross-site scripting (XSS), and HTTP floods. It integrates with other AWS services, such as CloudFront and API Gateway, to provide centralized security controls and real-time threat monitoring.",
+                "question_type": "security",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "61",
+                "Term": "Amazon Managed Service for Grafana (AMG)",
+                "correct_answer": "Amazon Managed Service for Grafana (AMG) is a fully managed service provided by AWS for deploying, scaling, and operating Grafana dashboards in the cloud. AMG allows users to visualize and analyze operational data from various sources, such as AWS services, databases, and custom applications, using Grafana's flexible and customizable dashboards. It offers features such as automatic provisioning, monitoring, and security, making it easy to build and share visualizations for monitoring and troubleshooting applications and infrastructure.",
+                "question_type": "monitoring",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "62",
+                "Term": "AWS Elemental MediaPackage",
+                "correct_answer": "AWS Elemental MediaPackage is a video origination and packaging service provided by AWS for preparing and delivering live and on-demand video streams to various devices and platforms. MediaPackage supports features such as content protection, dynamic ad insertion, and multi-bitrate streaming, enabling broadcasters to deliver high-quality video experiences with low latency and high scalability. It integrates with other AWS services, such as CloudFront and Elemental MediaLive, to provide end-to-end video workflow solutions.",
+                "question_type": "media",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "63",
+                "Term": "AWS CodeArtifact",
+                "correct_answer": "AWS CodeArtifact is a fully managed artifact repository service provided by AWS for storing, sharing, and managing software packages and dependencies. CodeArtifact allows users to create repositories to store packages in formats such as npm, Maven, and Python, and manage access permissions using AWS Identity and Access Management (IAM) policies. It supports features such as package versioning, dependency resolution, and integration with popular build tools and package managers, making it easy to maintain software dependencies and improve build reproducibility.",
+                "question_type": "development",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "64",
+                "Term": "Amazon CloudWatch Synthetics",
+                "correct_answer": "Amazon CloudWatch Synthetics is a monitoring service provided by AWS for testing application endpoints and user experiences using synthetic transactions. Synthetics allows users to create canaries, which are scripts that simulate user interactions with web applications, APIs, and other endpoints, to monitor application health and performance. It provides features such as scheduled monitoring, customizable alarms, and integration with CloudWatch Metrics and Dashboards, enabling proactive monitoring and troubleshooting of application issues.",
+                "question_type": "monitoring",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "65",
+                "Term": "AWS Network Firewall",
+                "correct_answer": "AWS Network Firewall is a managed firewall service provided by AWS for protecting virtual private clouds (VPCs) from malicious traffic and threats. Network Firewall allows users to define and enforce firewall rules and policies based on IP addresses, protocols, and ports, to control inbound and outbound traffic. It provides features such as stateful inspection, intrusion detection, and logging, enabling comprehensive network security and compliance with industry regulations.",
+                "question_type": "security",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "66",
+                "Term": "AWS AppConfig",
+                "correct_answer": "AWS AppConfig is a configuration management service provided by AWS for managing application configurations in a centralized and scalable manner. AppConfig allows users to define configuration settings and deploy them to applications running on EC2 instances, containers, and serverless environments. It supports features such as staged deployments, configuration validation, and integration with AWS CodeDeploy, enabling safe and efficient management of application configurations.",
+                "question_type": "development",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "67",
+                "Term": "AWS Cost Explorer",
+                "correct_answer": "AWS Cost Explorer is a cost management tool provided by AWS for analyzing and visualizing AWS usage and costs. Cost Explorer allows users to view historical usage data, forecast future spending, and identify cost-saving opportunities by analyzing cost and usage metrics across AWS services and accounts. It provides features such as custom cost reports, cost anomaly detection, and integration with AWS Budgets and AWS Billing and Cost Management, enabling effective cost optimization and budgeting.",
+                "question_type": "management",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "68",
+                "Term": "Amazon RDS Proxy",
+                "correct_answer": "Amazon RDS Proxy is a fully managed database proxy service provided by AWS for managing connections to relational databases deployed on Amazon RDS. RDS Proxy improves database scalability, availability, and security by pooling and multiplexing database connections, handling failover and retry logic, and implementing connection pooling strategies. It supports features such as connection pooling, query caching, and integration with AWS Secrets Manager, making it easy to manage database connections for scalable and resilient applications.",
+                "question_type": "database",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "69",
+                "Term": "AWS CodeGuru",
+                "correct_answer": "AWS CodeGuru is a machine learning-based service provided by AWS for automating code reviews and identifying performance optimizations in software applications. CodeGuru uses machine learning models trained on best practices and code patterns to analyze code repositories and provide actionable recommendations for improving code quality and performance. It supports features such as code review automation, performance profiling, and integration with popular development tools and workflows, enabling developers to write higher-quality and more efficient code.",
+                "question_type": "development",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "70",
+                "Term": "Amazon Managed Service for Prometheus (AMP)",
+                "correct_answer": "Amazon Managed Service for Prometheus (AMP) is a fully managed service provided by AWS for monitoring containerized applications and infrastructure using Prometheus-compatible metrics. AMP allows users to collect, store, and query application and system metrics using Prometheus query language (PromQL) and Grafana dashboards. It provides features such as automatic provisioning, scalable storage, and integration with AWS services, such as CloudWatch and AWS Identity and Access Management (IAM), enabling comprehensive monitoring and observability of containerized workloads.",
+                "question_type": "monitoring",
+                "test": "amazon web service cloud practitioner"
+              },{
+                "id": "71",
+                "Term": "AWS Backup",
+                "correct_answer": "AWS Backup is a centralized backup service provided by AWS for automating and managing backups across AWS services and on-premises environments. AWS Backup allows users to create backup plans to define backup policies and schedules for resources such as EC2 instances, EBS volumes, RDS databases, and DynamoDB tables. It provides features such as cross-region and cross-account backups, lifecycle management, and integration with AWS Organizations, enabling comprehensive data protection and disaster recovery.",
+                "question_type": "backup",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "72",
+                "Term": "AWS Glue",
+                "correct_answer": "AWS Glue is a fully managed extract, transform, and load (ETL) service provided by AWS for preparing and loading data for analytics. Glue allows users to create and run ETL jobs to extract data from various sources, transform it into a desired format, and load it into data lakes, data warehouses, or other analytics platforms. It supports features such as schema discovery, data cataloging, and serverless ETL execution, making it easy to build and maintain data pipelines for analytics and machine learning.",
+                "question_type": "data analytics",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "73",
+                "Term": "Amazon Athena",
+                "correct_answer": "Amazon Athena is an interactive query service provided by AWS for analyzing data stored in Amazon S3 using standard SQL queries. Athena allows users to query data directly from S3 without the need for complex ETL processes or data loading. It supports features such as federated querying, schema-on-read, and integration with AWS Glue Data Catalog, enabling ad-hoc analysis and exploration of large-scale datasets with ease.",
+                "question_type": "data analytics",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "74",
+                "Term": "AWS AppConfig",
+                "correct_answer": "AWS AppConfig is a configuration management service provided by AWS for managing application configurations in a centralized and scalable manner. AppConfig allows users to define configuration settings and deploy them to applications running on EC2 instances, containers, and serverless environments. It supports features such as staged deployments, configuration validation, and integration with AWS CodeDeploy, enabling safe and efficient management of application configurations.",
+                "question_type": "development",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "75",
+                "Term": "AWS IoT Device Defender",
+                "correct_answer": "AWS IoT Device Defender is a security service provided by AWS for securing IoT devices and mitigating risks in IoT deployments. Device Defender allows users to define security policies and monitor IoT device behavior for suspicious activities, such as unauthorized access, anomalous behavior, and device tampering. It provides features such as audit logging, anomaly detection, and integration with AWS IoT Core, enabling proactive detection and response to security threats in IoT environments.",
+                "question_type": "security",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "76",
+                "Term": "Amazon Managed Workflows for Apache Airflow (MWAA)",
+                "correct_answer": "Amazon Managed Workflows for Apache Airflow (MWAA) is a fully managed service provided by AWS for orchestrating and automating workflows using Apache Airflow. MWAA allows users to define and run workflows as directed acyclic graphs (DAGs), with support for tasks such as data processing, ETL, and machine learning pipelines. It provides features such as automatic scaling, high availability, and integration with AWS services, enabling reliable and scalable workflow orchestration.",
+                "question_type": "automation",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "77",
+                "Term": "Amazon Elasticsearch Service (Amazon ES)",
+                "correct_answer": "Amazon Elasticsearch Service (Amazon ES) is a fully managed service provided by AWS for deploying, operating, and scaling Elasticsearch clusters in the cloud. Amazon ES allows users to search, analyze, and visualize large volumes of data in real time using the Elasticsearch and Kibana open-source software stack. It supports features such as automated scaling, data encryption, and integration with other AWS services, enabling full-text search, log analytics, and real-time application monitoring.",
+                "question_type": "data analytics",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "78",
+                "Term": "AWS CloudFormation",
+                "correct_answer": "AWS CloudFormation is a service provided by AWS for provisioning and managing AWS infrastructure as code. CloudFormation allows users to define infrastructure resources and dependencies in a declarative template, which can be version-controlled and deployed consistently across environments. It supports features such as resource provisioning, stack management, and change rollback, enabling automated and repeatable infrastructure deployments.",
+                "question_type": "deployment",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "79",
+                "Term": "Amazon Lex V2",
+                "correct_answer": "Amazon Lex V2 is the second version of Amazon Lex, a service provided by AWS for building conversational interfaces, also known as chatbots or virtual agents. Lex V2 offers enhanced capabilities for natural language understanding (NLU), dialog management, and integration with backend services. It provides features such as sentiment analysis, multi-turn conversations, and context management, making it easier to develop and deploy advanced chatbot applications.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "80",
+                "Term": "AWS Elemental MediaConnect",
+                "correct_answer": "AWS Elemental MediaConnect is a high-quality live video transport service provided by AWS for reliably transporting live video streams to and from the cloud. MediaConnect allows broadcasters and content providers to send and receive video streams with low latency, high reliability, and secure encryption. It supports features such as ultra-low-latency streaming, error correction, and integration with other AWS services, enabling broadcasters to deliver broadcast-grade video experiences to viewers worldwide.",
+                "question_type": "media",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "81",
+                "Term": "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
+                "correct_answer": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) is a fully managed service provided by AWS for building and running Apache Kafka clusters in the cloud. Amazon MSK simplifies the setup, scaling, and management of Kafka clusters, allowing users to focus on building real-time streaming applications. It supports features such as data replication, automatic scaling, and integration with AWS security services, enabling secure and scalable data streaming for use cases such as event-driven architectures, real-time analytics, and log aggregation.",
+                "question_type": "data analytics",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "82",
+                "Term": "AWS Elemental MediaConvert",
+                "correct_answer": "AWS Elemental MediaConvert is a file-based video transcoding service provided by AWS for converting media files into various formats for playback on different devices and platforms. MediaConvert allows users to create custom transcoding jobs to convert videos between different codecs, resolutions, and bitrates, with support for features such as closed captioning, DRM encryption, and ad insertion. It integrates with other AWS services, such as S3 and CloudFront, to provide end-to-end video workflow solutions.",
+                "question_type": "media",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "83",
+                "Term": "AWS Snowball",
+                "correct_answer": "AWS Snowball is a petabyte-scale data transfer service provided by AWS for securely transferring large amounts of data into and out of the AWS cloud. Snowball devices are ruggedized, tamper-resistant storage appliances that users can request from AWS to transfer data offline. It supports features such as data encryption, chain-of-custody tracking, and integration with AWS services, enabling fast and secure data migration for use cases such as data center relocation, data backup, and disaster recovery.",
+                "question_type": "data transfer",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "84",
+                "Term": "AWS CodeCommit",
+                "correct_answer": "AWS CodeCommit is a fully managed source control service provided by AWS for hosting private Git repositories in the cloud. CodeCommit allows users to securely store and version control their source code, with support for features such as branch management, pull requests, and access control. It integrates with other AWS services, such as CodeBuild and CodePipeline, to provide end-to-end continuous integration and continuous delivery (CI/CD) workflows.",
+                "question_type": "development",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "85",
+                "Term": "Amazon CloudFront",
+                "correct_answer": "Amazon CloudFront is a content delivery network (CDN) service provided by AWS for delivering static and dynamic web content to users with low latency and high transfer speeds. CloudFront caches content at edge locations around the world, reducing the latency of content delivery and offloading traffic from origin servers. It supports features such as content compression, SSL/TLS encryption, and geo-restriction, enabling fast and secure content delivery for websites, APIs, and streaming media.",
+                "question_type": "networking",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "86",
+                "Term": "AWS CodeDeploy",
+                "correct_answer": "AWS CodeDeploy is a deployment automation service provided by AWS for deploying applications to EC2 instances, on-premises servers, and AWS Lambda functions. CodeDeploy allows users to automate the deployment process, with support for features such as blue/green deployments, automatic rollbacks, and deployment health monitoring. It integrates with other AWS services, such as CodePipeline and CloudFormation, to provide end-to-end continuous deployment workflows.",
+                "question_type": "deployment",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "87",
+                "Term": "Amazon Redshift",
+                "correct_answer": "Amazon Redshift is a fully managed data warehousing service provided by AWS for analyzing large datasets using SQL queries. Redshift allows users to create petabyte-scale data warehouses that can handle complex analytics workloads, with support for features such as columnar storage, parallel processing, and automatic optimization. It integrates with other AWS services, such as S3 and Data Pipeline, to provide scalable and cost-effective data warehousing solutions for business intelligence and data analytics.",
+                "question_type": "data analytics",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "88",
+                "Term": "AWS X-Ray",
+                "correct_answer": "AWS X-Ray is a distributed tracing service provided by AWS for monitoring and debugging microservices-based applications. X-Ray allows users to visualize and analyze the flow of requests through their application architecture, identifying performance bottlenecks, errors, and dependencies. It provides features such as request tracing, service maps, and integration with AWS Lambda, enabling developers to optimize application performance and troubleshoot issues.",
+                "question_type": "monitoring",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "89",
+                "Term": "Amazon Managed Service for Prometheus (AMP)",
+                "correct_answer": "Amazon Managed Service for Prometheus (AMP) is a fully managed service provided by AWS for monitoring containerized applications and infrastructure using Prometheus-compatible metrics. AMP allows users to collect, store, and query application and system metrics using Prometheus query language (PromQL) and Grafana dashboards. It provides features such as automatic provisioning, scalable storage, and integration with AWS services, such as CloudWatch and AWS Identity and Access Management (IAM), enabling comprehensive monitoring and observability of containerized workloads.",
+                "question_type": "monitoring",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "90",
+                "Term": "AWS Backup",
+                "correct_answer": "AWS Backup is a centralized backup service provided by AWS for automating and managing backups across AWS services and on-premises environments. AWS Backup allows users to create backup plans to define backup policies and schedules for resources such as EC2 instances, EBS volumes, RDS databases, and DynamoDB tables. It provides features such as cross-region and cross-account backups, lifecycle management, and integration with AWS Organizations, enabling comprehensive data protection and disaster recovery.",
+                "question_type": "backup",
+                "test": "amazon web service cloud practitioner"
+              },{
+                "id": "91",
+                "Term": "Amazon Elastic File System (Amazon EFS)",
+                "correct_answer": "Amazon Elastic File System (Amazon EFS) is a scalable and fully managed file storage service provided by AWS for use with Amazon EC2 instances and containerized applications. Amazon EFS allows users to create file systems that can be accessed concurrently from multiple EC2 instances or containers, making it suitable for shared storage workloads such as web serving, content management, and data analytics. It provides features such as high availability, durability, and integration with other AWS services, enabling easy deployment and management of scalable file storage in the cloud.",
+                "question_type": "storage",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "92",
+                "Term": "AWS Fargate",
+                "correct_answer": "AWS Fargate is a serverless compute engine provided by AWS for deploying and managing containers without having to manage the underlying infrastructure. AWS Fargate allows users to run containers as a service, with support for features such as automatic scaling, load balancing, and integration with other AWS services. It abstracts away the complexity of container orchestration and infrastructure management, enabling developers to focus on building and deploying containerized applications with ease.",
+                "question_type": "containerization",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "93",
+                "Term": "Amazon Kinesis",
+                "correct_answer": "Amazon Kinesis is a platform provided by AWS for collecting, processing, and analyzing real-time streaming data at scale. Amazon Kinesis offers three services: Kinesis Data Streams for real-time data ingestion, Kinesis Data Firehose for data delivery to destinations such as S3 and Redshift, and Kinesis Data Analytics for real-time data analytics using SQL queries. It supports features such as data encryption, automatic scaling, and integration with other AWS services, enabling customers to build real-time applications for use cases such as IoT telemetry, log and event data ingestion, and real-time analytics.",
+                "question_type": "data analytics",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "94",
+                "Term": "AWS Direct Connect",
+                "correct_answer": "AWS Direct Connect is a network service provided by AWS for establishing dedicated network connections between on-premises data centers and AWS cloud infrastructure. AWS Direct Connect allows users to bypass the public internet and establish private, low-latency connections to AWS services such as Amazon EC2, Amazon S3, and Amazon VPC. It provides features such as multiple connection options, dedicated bandwidth, and integration with AWS Direct Connect Gateway, enabling hybrid cloud architectures and secure, high-performance connectivity to the AWS cloud.",
+                "question_type": "networking",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "95",
+                "Term": "Amazon Aurora",
+                "correct_answer": "Amazon Aurora is a fully managed relational database service provided by AWS that offers high performance, scalability, and availability. Amazon Aurora is compatible with MySQL and PostgreSQL, offering up to five times the performance of standard MySQL databases and three times the performance of standard PostgreSQL databases. It provides features such as automatic failover, continuous backup, and read scaling, making it suitable for a wide range of applications requiring relational database capabilities with high performance and reliability.",
+                "question_type": "database",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "96",
+                "Term": "AWS CloudTrail",
+                "correct_answer": "AWS CloudTrail is a logging service provided by AWS for monitoring and auditing AWS API calls made by users and resources within an AWS account. CloudTrail records API activity and delivers log files to Amazon S3 for storage and analysis. It provides features such as log file encryption, event notifications, and integration with AWS services such as CloudWatch and AWS Config, enabling customers to maintain visibility into their AWS infrastructure and comply with security and compliance requirements.",
+                "question_type": "security",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "97",
+                "Term": "Amazon Lex",
+                "correct_answer": "Amazon Lex is a service provided by AWS for building conversational interfaces, also known as chatbots or virtual agents. Amazon Lex uses advanced natural language processing (NLP) and automatic speech recognition (ASR) to understand and respond to user input in text or speech format. It provides features such as intent recognition, slot filling, and integration with backend services, enabling developers to build interactive chatbot applications for use cases such as customer support, virtual assistants, and enterprise productivity.",
+                "question_type": "AI & ML",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "98",
+                "Term": "AWS Lambda",
+                "correct_answer": "AWS Lambda is a serverless compute service provided by AWS for running code in response to events without provisioning or managing servers. AWS Lambda allows users to upload code in the form of functions and execute them in a scalable and cost-effective manner, with automatic scaling and high availability. It supports multiple programming languages, event sources, and integrations with other AWS services, enabling developers to build a wide range of serverless applications and microservices.",
+                "question_type": "serverless",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "99",
+                "Term": "AWS Secrets Manager",
+                "correct_answer": "AWS Secrets Manager is a service provided by AWS for securely storing and managing sensitive information such as passwords, API keys, and other secrets. AWS Secrets Manager allows users to store secrets encrypted at rest and manage access permissions using AWS Identity and Access Management (IAM) policies. It provides features such as automatic rotation, audit logging, and integration with other AWS services, enabling customers to centralize and automate the management of secrets across their AWS infrastructure.",
+                "question_type": "security",
+                "test": "amazon web service cloud practitioner"
+              },
+              {
+                "id": "100",
+                "Term": "AWS Amplify",
+                "correct_answer": "AWS Amplify is a set of tools and services provided by AWS for building full-stack web and mobile applications. Amplify offers features such as authentication, data storage, offline data access, and analytics, allowing developers to focus on building core application functionality without managing infrastructure. It supports popular front-end frameworks such as React, Angular, and Vue.js, and provides integration with AWS services, such as API Gateway, Lambda, and DynamoDB.",
+                "question_type": "development",
+                "test": "amazon web service cloud practitioner"
+              },
+                {
+                  "id": "111",
+                  "Term": "Amazon Elastic Container Service (Amazon ECS)",
+                  "correct_answer": "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service provided by AWS for deploying, managing, and scaling containerized applications. Amazon ECS allows users to run Docker containers on a scalable cluster of EC2 instances or AWS Fargate, a serverless compute engine for containers. It provides features such as task definition templates, service auto-scaling, and integration with AWS Identity and Access Management (IAM), enabling developers to build and run containerized applications reliably.",
+                  "question_type": "containerization",
+                  "test": "amazon web service cloud practitioner"
+                },
+                {
+                  "id": "112",
+                  "Term": "AWS Direct Connect Gateway",
+                  "correct_answer": "AWS Direct Connect Gateway is a networking service provided by AWS for connecting multiple virtual private clouds (VPCs) to a Direct Connect connection. AWS Direct Connect Gateway allows users to establish private connectivity between VPCs in different AWS Regions or AWS accounts without traversing the public internet. It provides features such as route propagation, private virtual interface (VIF) attachment, and integration with AWS Transit Gateway, enabling customers to build scalable and flexible network architectures.",
+                  "question_type": "networking",
+                  "test": "amazon web service cloud practitioner"
+                },
+                {
+                  "id": "113",
+                  "Term": "AWS Budgets",
+                  "correct_answer": "AWS Budgets is a cost management service provided by AWS for monitoring and controlling AWS spending. AWS Budgets allows users to set custom cost and usage budgets for AWS services, with alerts and notifications to keep track of spending and usage against the defined budgets. It provides features such as budget forecasting, cost visualization, and integration with AWS Cost Explorer, enabling customers to optimize their AWS spending and avoid unexpected charges.",
+                  "question_type": "cost management",
+                  "test": "amazon web service cloud practitioner"
+                },
+                {
+                  "id": "114",
+                  "Term": "Amazon API Gateway",
+                  "correct_answer": "Amazon API Gateway is a fully managed service provided by AWS for building, deploying, and managing secure APIs at scale. Amazon API Gateway allows users to create RESTful APIs or WebSocket APIs to access data, business logic, or functionality from backend services. It provides features such as API versioning, request throttling, and integration with AWS Lambda and other AWS services, enabling developers to build efficient and scalable API-driven applications.",
+                  "question_type": "API management",
+                  "test": "amazon web service cloud practitioner"
+                },
+                {
+                  "id": "115",
+                  "Term": "AWS Key Management Service (AWS KMS)",
+                  "correct_answer": "AWS Key Management Service (AWS KMS) is a managed service provided by AWS for creating and managing encryption keys and cryptographic operations. AWS KMS allows users to generate, store, and control access to encryption keys used to encrypt data at rest and in transit across AWS services and applications. It provides features such as hardware security module (HSM) protection, key rotation, and integration with AWS services, enabling customers to maintain control over their encryption keys and ensure data security and compliance.",
+                  "question_type": "security",
+                  "test": "amazon web service cloud practitioner"
+                },
+                {
+                  "id": "116",
+                  "Term": "Amazon Elastic Kubernetes Service (Amazon EKS)",
+                  "correct_answer": "Amazon Elastic Kubernetes Service (Amazon EKS) is a fully managed Kubernetes service provided by AWS for deploying, managing, and scaling containerized applications using Kubernetes. Amazon EKS allows users to run Kubernetes applications on AWS infrastructure without the need to install, operate, and maintain Kubernetes clusters. It provides features such as automatic cluster provisioning, high availability, and integration with AWS services, enabling developers to build and run Kubernetes applications efficiently.",
+                  "question_type": "containerization",
+                  "test": "amazon web service cloud practitioner"
+                },
+                {
+                  "id": "117",
+                  "Term": "AWS Resource Groups",
+                  "correct_answer": "AWS Resource Groups is a service provided by AWS for organizing and managing AWS resources into logical groups based on criteria such as tags, resource types, or regions. AWS Resource Groups allows users to create dynamic resource groups that automatically update as resources are added or removed from AWS accounts. It provides features such as resource tagging, group-based permissions, and integration with AWS Systems Manager, enabling customers to streamline resource management and automate operations.",
+                  "question_type": "management",
+                  "test": "amazon web service cloud practitioner"
+                },
+                {
+                  "id": "118",
+                  "Term": "Amazon Managed Service for Grafana (AMG)",
+                  "correct_answer": "Amazon Managed Service for Grafana (AMG) is a fully managed service provided by AWS for visualizing and monitoring operational data using Grafana dashboards. Amazon AMG allows users to create, explore, and share interactive dashboards to visualize metrics, logs, and traces from AWS services and applications. It provides features such as automatic scaling, data source integration, and integration with AWS security services, enabling customers to gain insights and monitor the health and performance of their AWS workloads.",
+                  "question_type": "monitoring",
+                  "test": "amazon web service cloud practitioner"
+                },
+                {
+                  "id": "119",
+                  "Term": "AWS Transfer Family",
+                  "correct_answer": "AWS Transfer Family is a fully managed file transfer service provided by AWS for securely transferring files over the internet using protocols such as FTP, FTPS, and SFTP. AWS Transfer Family allows users to set up and manage file transfer servers in AWS without the need to provision or manage underlying infrastructure. It provides features such as encryption at rest and in transit, access controls, and integration with AWS Identity and Access Management (IAM), enabling customers to securely transfer files to and from AWS services and on-premises environments.",
+                  "question_type": "data transfer",
+                  "test": "amazon web service cloud practitioner"
+                },
+                {
+                  "id": "120",
+                  "Term": "AWS Snowcone",
+                  "correct_answer": "AWS Snowcone is a portable and ruggedized data transfer and edge computing device provided by AWS for collecting, processing, and transferring data in challenging environments. AWS Snowcone allows users to deploy applications, run analytics, and collect data in remote locations or disconnected environments. It provides features such as data encryption, tamper-resistant enclosure, and integration with AWS services such as S3 and AWS IoT Greengrass, enabling customers to extend their AWS infrastructure to the edge.",
+                  "question_type": "data transfer",
+                  "test": "amazon web service cloud practitioner"
+                },
+                {
+                    "id": "121",
+                    "Term": "Amazon Neptune",
+                    "correct_answer": "Amazon Neptune is a fully managed graph database service provided by AWS for building and managing applications that require highly connected datasets. Amazon Neptune supports both property graph and RDF graph models, allowing users to create and query graph data using Gremlin and SPARQL queries, respectively. It provides features such as high availability, read replicas, and integration with AWS services, enabling customers to build scalable and highly available graph databases for use cases such as social networking, fraud detection, and recommendation engines.",
+                    "question_type": "database",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "122",
+                    "Term": "AWS Elemental MediaPackage",
+                    "correct_answer": "AWS Elemental MediaPackage is a video origination and packaging service provided by AWS for preparing and delivering live and on-demand video content to various devices and platforms. AWS Elemental MediaPackage allows users to format and package video streams for delivery over the internet with features such as content protection, ad insertion, and redundancy. It integrates with other AWS services, such as MediaLive and CloudFront, to provide end-to-end video workflow solutions.",
+                    "question_type": "media",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "123",
+                    "Term": "Amazon FSx",
+                    "correct_answer": "Amazon FSx is a fully managed file storage service provided by AWS for Windows File Server and Lustre high-performance computing (HPC) workloads. Amazon FSx allows users to create and manage file systems that are accessible over the industry-standard SMB (Server Message Block) and Lustre protocols. It provides features such as data deduplication, encryption at rest, and integration with AWS services, enabling customers to deploy file storage solutions for applications such as business applications, media processing, and machine learning.",
+                    "question_type": "storage",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "124",
+                    "Term": "AWS CloudFormation",
+                    "correct_answer": "AWS CloudFormation is a service provided by AWS for defining and deploying infrastructure as code (IaC) using templates. AWS CloudFormation allows users to create and manage a collection of AWS resources in a declarative manner, with templates written in JSON or YAML format. It provides features such as resource provisioning, dependency management, and rollback capabilities, enabling customers to automate the deployment and management of AWS infrastructure.",
+                    "question_type": "deployment",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "125",
+                    "Term": "Amazon Elasticsearch Service (Amazon ES)",
+                    "correct_answer": "Amazon Elasticsearch Service (Amazon ES) is a fully managed search service provided by AWS for deploying, managing, and scaling Elasticsearch clusters in the cloud. Amazon ES allows users to run Elasticsearch, an open-source search and analytics engine, without the need to manage infrastructure. It provides features such as automated scaling, data encryption, and integration with Kibana for data visualization, enabling customers to build and deploy search and analytics applications easily.",
+                    "question_type": "database",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "126",
+                    "Term": "AWS Step Functions Data Science SDK",
+                    "correct_answer": "AWS Step Functions Data Science SDK is a Python library provided by AWS for building and executing data science workflows using AWS Step Functions. AWS Step Functions Data Science SDK allows data scientists to define and orchestrate machine learning (ML) pipelines using familiar Python programming constructs. It provides features such as parallel execution, error handling, and integration with AWS services such as SageMaker and Lambda, enabling data scientists to automate and scale ML workflows.",
+                    "question_type": "data science",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "127",
+                    "Term": "AWS Glue",
+                    "correct_answer": "AWS Glue is a fully managed extract, transform, and load (ETL) service provided by AWS for preparing and transforming data for analytics and machine learning. AWS Glue allows users to create and run ETL jobs that automatically discover, catalog, and transform data stored in various sources such as S3, RDS, and Redshift. It provides features such as data cataloging, schema inference, and integration with AWS services, enabling customers to build scalable and cost-effective data pipelines.",
+                    "question_type": "data analytics",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "128",
+                    "Term": "Amazon QuickSight",
+                    "correct_answer": "Amazon QuickSight is a business intelligence (BI) service provided by AWS for building and visualizing interactive dashboards and reports. Amazon QuickSight allows users to connect to various data sources, create visualizations, and share insights with stakeholders. It provides features such as machine learning-powered analytics, ad-hoc analysis, and integration with AWS services, enabling customers to derive actionable insights from their data quickly and efficiently.",
+                    "question_type": "data analytics",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "129",
+                    "Term": "AWS Cloud9",
+                    "correct_answer": "AWS Cloud9 is a cloud-based integrated development environment (IDE) provided by AWS for writing, running, and debugging code collaboratively. AWS Cloud9 allows users to develop applications using popular programming languages such as Python, JavaScript, and Ruby, with features such as code editing, debugging, and collaboration tools. It provides integration with AWS services, including Lambda and CodeCommit, enabling developers to build and deploy applications directly from the IDE.",
+                    "question_type": "development",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "130",
+                    "Term": "AWS App Mesh",
+                    "correct_answer": "AWS App Mesh is a service provided by AWS for monitoring and controlling microservices-based applications running on AWS infrastructure. AWS App Mesh allows users to create a mesh that provides end-to-end visibility and traffic control for microservices, with features such as service discovery, load balancing, and encryption. It integrates with AWS services such as ECS, EKS, and Fargate, enabling customers to deploy and manage resilient and scalable microservices architectures.",
+                    "question_type": "microservices",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "131",
+                    "Term": "AWS Storage Gateway",
+                    "correct_answer": "AWS Storage Gateway is a hybrid cloud storage service provided by AWS for seamlessly integrating on-premises environments with cloud storage. AWS Storage Gateway allows users to securely store data in the AWS cloud for backup, archive, and disaster recovery purposes. It provides different storage interfaces, including file, volume, and tape gateways, to meet various storage needs. Storage Gateway integrates with AWS services such as S3, Glacier, and EBS, enabling customers to extend their on-premises storage to the cloud seamlessly.",
+                    "question_type": "storage",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "132",
+                    "Term": "Amazon EFS Infrequent Access (EFS IA)",
+                    "correct_answer": "Amazon EFS Infrequent Access (EFS IA) is a storage class provided by AWS for Amazon Elastic File System (Amazon EFS) that offers cost-effective file storage for infrequently accessed data. Amazon EFS IA allows users to store files in the cloud at a lower cost compared to standard storage, with a slightly higher retrieval fee. It provides features such as lifecycle management policies, encryption at rest, and integration with AWS services, enabling customers to optimize their storage costs for workloads with varying access patterns.",
+                    "question_type": "storage",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "134",
+                    "Term": "AWS Key Management Service (AWS KMS)",
+                    "correct_answer": "AWS Key Management Service (AWS KMS) is a managed service provided by AWS for creating and managing encryption keys and cryptographic operations. AWS KMS allows users to generate, store, and control access to encryption keys used to encrypt data across AWS services and applications. It provides features such as hardware security module (HSM) protection, key rotation, and integration with AWS services, enabling customers to maintain control over their encryption keys and ensure data security and compliance.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "135",
+                    "Term": "Amazon Cognito",
+                    "correct_answer": "Amazon Cognito is a service provided by AWS for managing user authentication, authorization, and user management in web and mobile applications. Amazon Cognito allows developers to add user sign-up, sign-in, and access control features to their applications easily. It provides features such as user pools for identity management, federated identity providers, multi-factor authentication (MFA), and user attribute storage. Cognito integrates with other AWS services, enabling developers to secure their applications and control user access effectively.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "136",
+                    "Term": "Amazon Elasticsearch Service (Amazon ES)",
+                    "correct_answer": "Amazon Elasticsearch Service (Amazon ES) is a fully managed search service provided by AWS for deploying, managing, and scaling Elasticsearch clusters in the cloud. Amazon ES allows users to run Elasticsearch, an open-source search and analytics engine, without the need to manage infrastructure. It provides features such as automated scaling, data encryption, and integration with Kibana for data visualization, enabling customers to build and deploy search and analytics applications easily.",
+                    "question_type": "data analytics",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "137",
+                    "Term": "AWS CodeDeploy",
+                    "correct_answer": "AWS CodeDeploy is a deployment service provided by AWS for automating the deployment of applications to Amazon EC2 instances, on-premises servers, and Lambda functions. AWS CodeDeploy allows users to deploy code changes with high availability and minimal downtime using rolling updates, blue/green deployments, and automatic rollback features. It integrates with popular development tools and CI/CD pipelines, enabling customers to automate the deployment process and improve application release velocity.",
+                    "question_type": "deployment",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "139",
+                    "Term": "AWS Lambda",
+                    "correct_answer": "AWS Lambda is a serverless compute service provided by AWS for running code in response to events without provisioning or managing servers. AWS Lambda allows users to upload code in the form of functions and execute them in a scalable and cost-effective manner, with automatic scaling and high availability. It supports multiple programming languages, event sources, and integrations with other AWS services, enabling developers to build a wide range of serverless applications and microservices.",
+                    "question_type": "serverless",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "140",
+                    "Term": "Amazon Simple Notification Service (Amazon SNS)",
+                    "correct_answer": "Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging service provided by AWS for publishing and subscribing to messages from various sources and destinations. Amazon SNS allows users to send notifications to distributed systems, mobile devices, and other AWS services in a scalable and reliable manner. It provides features such as message filtering, topic-based messaging, and integration with other AWS services, enabling customers to build event-driven architectures and broadcast messages to large audiences.",
+                    "question_type": "messaging",
+                    "test": "amazon web service cloud practitioner"
+                  },{
+                    "id": "141",
+                    "Term": "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
+                    "correct_answer": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) is a fully managed service provided by AWS for building and managing Apache Kafka clusters in the cloud. Amazon MSK allows users to create and run highly available, scalable, and secure Kafka clusters without the need to manage infrastructure. It provides features such as automatic scaling, data encryption, and integration with AWS services, enabling customers to build real-time streaming applications easily.",
+                    "question_type": "streaming",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "142",
+                    "Term": "AWS Fargate",
+                    "correct_answer": "AWS Fargate is a serverless compute engine provided by AWS for deploying and managing containers without needing to manage the underlying infrastructure. AWS Fargate allows users to run containers as a service directly on AWS infrastructure, with features such as automatic scaling, pay-as-you-go pricing, and integration with ECS and EKS. It enables customers to focus on building and running applications without the overhead of managing servers or clusters.",
+                    "question_type": "containerization",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "143",
+                    "Term": "AWS CodeCommit",
+                    "correct_answer": "AWS CodeCommit is a fully managed source control service provided by AWS for hosting secure and scalable Git repositories. AWS CodeCommit allows users to store and version control their code securely in the cloud, with features such as access control, branch policies, and integration with CI/CD pipelines. It provides a highly available and scalable Git infrastructure, enabling teams to collaborate on software development projects effectively.",
+                    "question_type": "development",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "144",
+                    "Term": "Amazon Polly",
+                    "correct_answer": "Amazon Polly is a text-to-speech (TTS) service provided by AWS for converting text into lifelike speech. Amazon Polly allows users to generate speech in multiple languages and voices, with customizable pronunciation and speech markup. It provides features such as neural text-to-speech (NTTS), speech synthesis markup language (SSML) support, and integration with AWS services, enabling customers to enhance their applications with natural-sounding speech capabilities.",
+                    "question_type": "AI",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "145",
+                    "Term": "Amazon Redshift",
+                    "correct_answer": "Amazon Redshift is a fully managed data warehouse service provided by AWS for analyzing large datasets using SQL queries. Amazon Redshift allows users to create and scale data warehouses in the cloud, with features such as columnar storage, massively parallel processing (MPP), and integration with business intelligence (BI) tools. It provides high performance and scalability for analytics workloads, enabling customers to gain insights from their data quickly and cost-effectively.",
+                    "question_type": "database",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "146",
+                    "Term": "AWS CloudTrail",
+                    "correct_answer": "AWS CloudTrail is a service provided by AWS for logging and monitoring API activity within AWS accounts. AWS CloudTrail allows users to track user activity and API usage across AWS services, with features such as log file integrity validation, event history tracking, and integration with AWS CloudWatch for monitoring and alerting. It provides visibility into actions taken by users and AWS services, enabling customers to ensure compliance, governance, and security of their AWS environments.",
+                    "question_type": "logging",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "147",
+                    "Term": "Amazon Managed Service for Prometheus (AMP)",
+                    "correct_answer": "Amazon Managed Service for Prometheus (AMP) is a fully managed service provided by AWS for monitoring containerized applications using Prometheus-compatible metrics. Amazon AMP allows users to collect, query, and visualize Prometheus metrics without the need to manage infrastructure. It provides features such as automatic scaling, long-term storage, and integration with AWS services, enabling customers to monitor and troubleshoot their containerized workloads effectively.",
+                    "question_type": "monitoring",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "148",
+                    "Term": "AWS Service Catalog",
+                    "correct_answer": "AWS Service Catalog is a service provided by AWS for creating and managing catalogs of IT services that are approved for use on AWS. AWS Service Catalog allows users to centrally manage and govern IT resources, with features such as product portfolios, versioning, and access controls. It provides a self-service portal for users to discover and deploy approved IT services, enabling organizations to enforce compliance, standardization, and cost control across their AWS environments.",
+                    "question_type": "management",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "149",
+                    "Term": "Amazon DocumentDB (with MongoDB compatibility)",
+                    "correct_answer": "Amazon DocumentDB (with MongoDB compatibility) is a fully managed document database service provided by AWS that is compatible with MongoDB workloads. Amazon DocumentDB allows users to run MongoDB-compatible applications without the complexity of managing infrastructure. It provides features such as automatic scaling, backup and restore, and integration with MongoDB drivers and tools, enabling customers to build and scale MongoDB applications in the cloud with ease.",
+                    "question_type": "database",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "150",
+                    "Term": "AWS Secrets Manager",
+                    "correct_answer": "AWS Secrets Manager is a service provided by AWS for managing and securely storing sensitive information such as passwords, API keys, and encryption keys. AWS Secrets Manager allows users to rotate, manage access, and retrieve secrets programmatically, with features such as automatic rotation, encryption at rest, and integration with AWS services. It provides a central repository for managing secrets, enabling customers to enforce security best practices and comply with regulatory requirements.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "151",
+                    "Term": "AWS AppSync",
+                    "correct_answer": "AWS AppSync is a fully managed service provided by AWS for building real-time and offline-enabled applications with GraphQL. AWS AppSync allows users to create GraphQL APIs that securely access data from multiple sources such as DynamoDB, RDS, and Lambda. It provides features such as real-time data synchronization, offline data access, and fine-grained access control, enabling developers to build scalable and responsive applications with GraphQL.",
+                    "question_type": "API management",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "152",
+                    "Term": "Amazon Managed Blockchain",
+                    "correct_answer": "Amazon Managed Blockchain is a fully managed service provided by AWS for creating and managing scalable blockchain networks using popular blockchain frameworks such as Hyperledger Fabric and Ethereum. Amazon Managed Blockchain allows users to deploy and operate blockchain networks with features such as automatic scaling, managed nodes, and built-in monitoring. It simplifies the setup and management of blockchain infrastructure, enabling customers to focus on building blockchain applications.",
+                    "question_type": "blockchain",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "153",
+                    "Term": "AWS CodePipeline",
+                    "correct_answer": "AWS CodePipeline is a continuous integration and continuous delivery (CI/CD) service provided by AWS for automating the build, test, and deployment of applications. AWS CodePipeline allows users to create and manage end-to-end CI/CD pipelines that automatically process code changes from source code repositories to production environments. It provides integration with other AWS services and third-party tools, enabling customers to streamline software release processes and improve development velocity.",
+                    "question_type": "deployment",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "154",
+                    "Term": "Amazon Managed Workflows for Apache Airflow (MWAA)",
+                    "correct_answer": "Amazon Managed Workflows for Apache Airflow (MWAA) is a fully managed service provided by AWS for orchestrating and automating data workflows using Apache Airflow. Amazon MWAA allows users to create, schedule, and monitor workflows that involve data processing, analytics, and machine learning tasks. It provides features such as automatic scaling, high availability, and integration with AWS services, enabling customers to build scalable and reliable data pipelines.",
+                    "question_type": "data analytics",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "155",
+                    "Term": "AWS DataSync",
+                    "correct_answer": "AWS DataSync is a data transfer service provided by AWS for securely transferring large amounts of data between on-premises storage and AWS services. AWS DataSync allows users to automate data transfer tasks, synchronize file systems, and replicate data across different storage environments. It provides features such as data encryption, incremental transfers, and bandwidth optimization, enabling customers to migrate data to the cloud easily and maintain data consistency.",
+                    "question_type": "data transfer",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "156",
+                    "Term": "Amazon CodeGuru",
+                    "correct_answer": "Amazon CodeGuru is a machine learning-based service provided by AWS for improving code quality and application performance. Amazon CodeGuru uses machine learning models to analyze code and provide recommendations for improving code reviews and application performance. It provides features such as code profiling, automated code reviews, and integration with developer tools, enabling customers to optimize their applications and reduce costs.",
+                    "question_type": "AI",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "157",
+                    "Term": "Amazon Elastic Container Registry (Amazon ECR)",
+                    "correct_answer": "Amazon Elastic Container Registry (Amazon ECR) is a fully managed container registry service provided by AWS for storing, managing, and deploying Docker container images. Amazon ECR allows users to push, pull, and manage Docker images securely in the cloud, with features such as encryption at rest, access control, and integration with AWS services. It simplifies the container image management process, enabling customers to build and deploy containerized applications easily.",
+                    "question_type": "containerization",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "158",
+                    "Term": "AWS Auto Scaling",
+                    "correct_answer": "AWS Auto Scaling is a service provided by AWS for automatically scaling AWS resources based on demand and performance metrics. AWS Auto Scaling allows users to set up scaling policies for EC2 instances, ECS tasks, DynamoDB tables, and other AWS resources to ensure optimal performance and cost efficiency. It provides features such as dynamic scaling, predictive scaling, and integration with AWS services, enabling customers to automatically adjust resource capacity to meet changing workload demands.",
+                    "question_type": "scaling",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "159",
+                    "Term": "Amazon Lightsail",
+                    "correct_answer": "Amazon Lightsail is a simplified virtual private server (VPS) service provided by AWS for launching and managing cloud infrastructure with ease. Amazon Lightsail allows users to deploy virtual servers, storage, and databases in the cloud without the complexity of traditional AWS services. It provides features such as pre-configured templates, integrated monitoring, and predictable pricing, enabling customers to quickly build and deploy web applications, blogs, and small websites.",
+                    "question_type": "deployment",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "160",
+                    "Term": "Amazon Managed Service for Prometheus (AMP)",
+                    "correct_answer": "Amazon Managed Service for Prometheus (AMP) is a fully managed service provided by AWS for monitoring containerized applications using Prometheus-compatible metrics. Amazon AMP allows users to collect, query, and visualize Prometheus metrics without the need to manage infrastructure. It provides features such as automatic scaling, long-term storage, and integration with AWS services, enabling customers to monitor and troubleshoot their containerized workloads effectively.",
+                    "question_type": "monitoring",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "161",
+                    "Term": "AWS Resource Access Manager (RAM)",
+                    "correct_answer": "AWS Resource Access Manager (RAM) is a service provided by AWS for securely sharing AWS resources across AWS accounts. AWS RAM allows users to share resources such as EC2 instances, subnets, and Route 53 hosted zones with other AWS accounts within the same organization or with external accounts. It provides features such as resource permissions, resource tagging, and centralized resource management, enabling customers to collaborate securely on AWS resources.",
+                    "question_type": "management",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "162",
+                    "Term": "Amazon Managed Service for Grafana (AMG)",
+                    "correct_answer": "Amazon Managed Service for Grafana (AMG) is a fully managed service provided by AWS for visualizing and monitoring data using Grafana dashboards. Amazon AMG allows users to create, explore, and share interactive dashboards for analyzing metrics and logs from various data sources. It provides features such as automatic scaling, long-term storage, and integration with AWS services, enabling customers to gain insights from their data easily.",
+                    "question_type": "monitoring",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "163",
+                    "Term": "AWS Single Sign-On (SSO)",
+                    "correct_answer": "AWS Single Sign-On (SSO) is a service provided by AWS for centrally managing user access to multiple AWS accounts and applications. AWS SSO allows users to sign in once to a central portal and access all assigned AWS accounts and applications without the need for multiple sets of credentials. It provides features such as user directory integration, role-based access control, and single sign-on (SSO) integration with SAML 2.0 and OIDC, enabling customers to simplify user access management and improve security.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "164",
+                    "Term": "Amazon Managed Streaming for Apache Kafka (MSK)",
+                    "correct_answer": "Amazon Managed Streaming for Apache Kafka (MSK) is a fully managed service provided by AWS for building and managing Apache Kafka clusters in the cloud. Amazon MSK allows users to create and run highly available, scalable, and secure Kafka clusters without the need to manage infrastructure. It provides features such as automatic scaling, data encryption, and integration with AWS services, enabling customers to build real-time streaming applications easily.",
+                    "question_type": "streaming",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "165",
+                    "Term": "AWS IoT Core",
+                    "correct_answer": "AWS IoT Core is a managed cloud service provided by AWS for securely connecting and managing Internet of Things (IoT) devices at scale. AWS IoT Core allows users to communicate with and control connected devices securely, with features such as device authentication, message routing, and device shadowing. It provides integration with other AWS services such as Lambda and S3, enabling customers to build scalable and secure IoT solutions.",
+                    "question_type": "IoT",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "166",
+                    "Term": "Amazon Pinpoint",
+                    "correct_answer": "Amazon Pinpoint is a multi-channel marketing automation service provided by AWS for engaging and retaining customers through targeted campaigns. Amazon Pinpoint allows users to analyze user behavior, segment audiences, and send personalized messages via email, SMS, push notifications, and voice channels. It provides features such as campaign analytics, user segmentation, and integration with AWS services, enabling customers to optimize their marketing efforts and drive user engagement.",
+                    "question_type": "marketing",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "167",
+                    "Term": "AWS Snowball",
+                    "correct_answer": "AWS Snowball is a petabyte-scale data transfer device provided by AWS for securely transferring large amounts of data to and from the AWS cloud. AWS Snowball allows users to migrate data offline by shipping physical devices to AWS data centers for data transfer. It provides features such as encryption, tamper-evident seals, and tracking, enabling customers to transfer data securely and efficiently, especially in environments with limited network bandwidth.",
+                    "question_type": "data transfer",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  
+                  {
+                    "id": "169",
+                    "Term": "Amazon RDS Performance Insights",
+                    "correct_answer": "Amazon RDS Performance Insights is a feature provided by AWS for monitoring and optimizing the performance of Amazon RDS database instances. Amazon RDS Performance Insights allows users to analyze database performance metrics and identify bottlenecks and inefficiencies in real time. It provides features such as visual dashboards, query-level performance insights, and recommendations, enabling customers to improve the performance and efficiency of their RDS databases.",
+                    "question_type": "database",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "170",
+                    "Term": "AWS Well-Architected Tool",
+                    "correct_answer": "AWS Well-Architected Tool is a service provided by AWS for reviewing and improving the architecture of AWS workloads based on architectural best practices and design principles. AWS Well-Architected Tool allows users to assess the architecture of their workloads across five pillars: operational excellence, security, reliability, performance efficiency, and cost optimization. It provides recommendations and best practices for optimizing workloads, enabling customers to build secure, high-performing, and cost-effective architectures on AWS.",
+                    "question_type": "architecture",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "171",
+                    "Term": "Amazon EventBridge",
+                    "correct_answer": "Amazon EventBridge is a serverless event bus service provided by AWS for building event-driven architectures. Amazon EventBridge allows users to route and process events from various sources such as AWS services, SaaS applications, and custom applications. It provides features such as event routing, event filtering, and integration with AWS services, enabling customers to build scalable and decoupled event-driven workflows.",
+                    "question_type": "event-driven architecture",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "172",
+                    "Term": "Amazon Managed Service for Prometheus (AMP)",
+                    "correct_answer": "Amazon Managed Service for Prometheus (AMP) is a fully managed service provided by AWS for monitoring containerized applications using Prometheus-compatible metrics. Amazon AMP allows users to collect, query, and visualize Prometheus metrics without the need to manage infrastructure. It provides features such as automatic scaling, long-term storage, and integration with AWS services, enabling customers to monitor and troubleshoot their containerized workloads effectively.",
+                    "question_type": "monitoring",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "173",
+                    "Term": "AWS Glue",
+                    "correct_answer": "AWS Glue is a fully managed extract, transform, and load (ETL) service provided by AWS for preparing and transforming data for analytics and machine learning. AWS Glue allows users to create and run ETL jobs to automate data processing tasks, with features such as data cataloging, schema discovery, and job scheduling. It provides integration with other AWS services such as S3, Redshift, and Athena, enabling customers to build scalable and cost-effective data pipelines.",
+                    "question_type": "data analytics",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "174",
+                    "Term": "AWS Transit Gateway",
+                    "correct_answer": "AWS Transit Gateway is a service provided by AWS for simplifying network connectivity across multiple VPCs and on-premises networks. AWS Transit Gateway allows users to create a centralized hub for connecting VPCs and VPNs, with features such as route propagation, traffic inspection, and segmentation. It provides scalable and efficient network routing, enabling customers to build global and multi-region network architectures easily.",
+                    "question_type": "networking",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "175",
+                    "Term": "Amazon API Gateway",
+                    "correct_answer": "Amazon API Gateway is a fully managed service provided by AWS for building, deploying, and managing APIs at scale. Amazon API Gateway allows users to create RESTful APIs and WebSocket APIs that integrate with backend services such as Lambda functions, EC2 instances, and HTTP endpoints. It provides features such as API versioning, authentication, throttling, and monitoring, enabling customers to build secure and scalable APIs for their applications.",
+                    "question_type": "API management",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "176",
+                    "Term": "AWS CloudFormation",
+                    "correct_answer": "AWS CloudFormation is a service provided by AWS for provisioning and managing AWS infrastructure as code. AWS CloudFormation allows users to define templates that describe the resources and dependencies of their AWS infrastructure, and then deploy those templates in a reliable and repeatable manner. It provides features such as stack management, change sets, and nested stacks, enabling customers to automate the deployment and management of their AWS resources.",
+                    "question_type": "infrastructure as code",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "177",
+                    "Term": "AWS CodeBuild",
+                    "correct_answer": "AWS CodeBuild is a fully managed build service provided by AWS for compiling source code, running tests, and creating software packages. AWS CodeBuild allows users to automate the build and release process of their applications, with features such as custom build environments, caching, and integration with CI/CD pipelines. It provides scalable and reliable build infrastructure, enabling customers to accelerate their software development lifecycle.",
+                    "question_type": "development",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "178",
+                    "Term": "Amazon Kinesis Data Streams",
+                    "correct_answer": "Amazon Kinesis Data Streams is a service provided by AWS for collecting, processing, and analyzing streaming data in real-time. Amazon Kinesis Data Streams allows users to ingest data from various sources such as IoT devices, application logs, and clickstreams, and process it with real-time analytics applications. It provides features such as data partitioning, data retention, and integration with other AWS services, enabling customers to build scalable and resilient stream processing applications.",
+                    "question_type": "streaming",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "179",
+                    "Term": "AWS CloudTrail",
+                    "correct_answer": "AWS CloudTrail is a service provided by AWS for logging and monitoring API activity within AWS accounts. AWS CloudTrail allows users to track user activity and API usage across AWS services, with features such as log file integrity validation, event history tracking, and integration with AWS CloudWatch for monitoring and alerting. It provides visibility into actions taken by users and AWS services, enabling customers to ensure compliance, governance, and security of their AWS environments.",
+                    "question_type": "logging",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "180",
+                    "Term": "Amazon Elastic Container Service (Amazon ECS)",
+                    "correct_answer": "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service provided by AWS for deploying and managing Docker containers at scale. Amazon ECS allows users to run containerized applications on a managed cluster of EC2 instances or Fargate, with features such as task scheduling, auto scaling, and service discovery. It provides seamless integration with other AWS services, enabling customers to build and deploy containerized applications easily.",
+                    "question_type": "containerization",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "181",
+                    "Term": "Amazon Elastic Kubernetes Service (Amazon EKS)",
+                    "correct_answer": "Amazon Elastic Kubernetes Service (Amazon EKS) is a fully managed Kubernetes service provided by AWS for deploying, managing, and scaling containerized applications using Kubernetes. Amazon EKS allows users to run Kubernetes clusters on AWS infrastructure, with features such as automatic scaling, high availability, and integration with AWS services. It provides a managed control plane and simplifies the deployment and operation of Kubernetes clusters, enabling customers to focus on building and running applications.",
+                    "question_type": "containerization",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "182",
+                    "Term": "AWS Key Management Service (AWS KMS)",
+                    "correct_answer": "AWS Key Management Service (AWS KMS) is a managed service provided by AWS for creating and controlling encryption keys used to encrypt data stored in AWS services and applications. AWS KMS allows users to generate, manage, and audit encryption keys securely, with features such as key rotation, access controls, and integration with AWS services. It provides a centralized key management solution, enabling customers to protect their data and comply with security and privacy requirements.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "183",
+                    "Term": "Amazon S3 Glacier",
+                    "correct_answer": "Amazon S3 Glacier is a low-cost storage service provided by AWS for archiving and long-term backup of data. Amazon S3 Glacier allows users to store data in secure, durable, and scalable archives, with features such as configurable retrieval times, data lifecycle policies, and integration with AWS services. It provides cost-effective storage options for data archiving and compliance, enabling customers to retain data for extended periods without the need for expensive infrastructure.",
+                    "question_type": "storage",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "184",
+                    "Term": "Amazon Elastic File System (Amazon EFS)",
+                    "correct_answer": "Amazon Elastic File System (Amazon EFS) is a fully managed file storage service provided by AWS for creating and managing scalable file systems in the cloud. Amazon EFS allows users to share file data across multiple EC2 instances and containers, with features such as automatic scaling, high availability, and durability. It provides a simple and scalable file storage solution for a wide range of use cases, including content repositories, data analytics, and application file storage.",
+                    "question_type": "storage",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "185",
+                    "Term": "AWS Lambda",
+                    "correct_answer": "AWS Lambda is a serverless compute service provided by AWS for running code in response to events without provisioning or managing servers. AWS Lambda allows users to upload code functions and execute them in response to triggers such as HTTP requests, S3 events, and DynamoDB updates. It provides features such as automatic scaling, built-in fault tolerance, and pay-as-you-go pricing, enabling customers to build scalable and cost-effective applications without managing infrastructure.",
+                    "question_type": "serverless",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "186",
+                    "Term": "Amazon Aurora",
+                    "correct_answer": "Amazon Aurora is a fully managed relational database service provided by AWS that offers high performance, scalability, and availability for MySQL and PostgreSQL-compatible databases. Amazon Aurora allows users to create databases that automatically scale storage and compute resources, with features such as read replicas, point-in-time recovery, and multi-region replication. It provides a cost-effective and reliable database solution for a wide range of applications, including e-commerce, gaming, and financial services.",
+                    "question_type": "database",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "187",
+                    "Term": "AWS Elastic Beanstalk",
+                    "correct_answer": "AWS Elastic Beanstalk is a platform as a service (PaaS) provided by AWS for deploying and managing web applications and services. AWS Elastic Beanstalk allows users to upload their application code and automatically provision and manage the underlying infrastructure, including EC2 instances, load balancers, and auto-scaling groups. It supports multiple programming languages and frameworks, enabling customers to quickly deploy and scale their applications without worrying about infrastructure management.",
+                    "question_type": "deployment",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "188",
+                    "Term": "Amazon Neptune",
+                    "correct_answer": "Amazon Neptune is a fully managed graph database service provided by AWS for building and querying highly connected datasets. Amazon Neptune supports popular graph models such as property graph and RDF, allowing users to create and query graph databases with features such as ACID transactions, high availability, and encryption at rest. It provides a scalable and reliable solution for applications that require complex relationships and traversals across large datasets.",
+                    "question_type": "database",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "189",
+                    "Term": "AWS X-Ray",
+                    "correct_answer": "AWS X-Ray is a distributed tracing service provided by AWS for analyzing and debugging distributed applications. AWS X-Ray allows users to trace requests as they travel through distributed systems, identify performance bottlenecks, and analyze application behavior. It provides features such as service maps, request tracing, and integration with AWS services, enabling customers to gain insights into their application performance and troubleshoot issues easily.",
+                    "question_type": "monitoring",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "190",
+                    "Term": "AWS Database Migration Service (AWS DMS)",
+                    "correct_answer": "AWS Database Migration Service (AWS DMS) is a service provided by AWS for migrating databases to and from AWS with minimal downtime. AWS DMS allows users to easily migrate databases between homogenous or heterogeneous database engines, with features such as continuous data replication, schema conversion, and data validation. It provides a reliable and cost-effective solution for database migration projects, enabling customers to modernize their applications and infrastructure.",
+                    "question_type": "migration",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "191",
+                    "Term": "Amazon Redshift",
+                    "correct_answer": "Amazon Redshift is a fully managed data warehousing service provided by AWS for analyzing large datasets using SQL queries. Amazon Redshift allows users to create and manage data warehouses that can scale from gigabytes to petabytes of data, with features such as columnar storage, massively parallel processing, and advanced analytics capabilities. It provides high performance and cost-effective solutions for analytics workloads, enabling customers to gain insights from their data.",
+                    "question_type": "data analytics",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "192",
+                    "Term": "AWS Certificate Manager (ACM)",
+                    "correct_answer": "AWS Certificate Manager (ACM) is a service provided by AWS for managing SSL/TLS certificates used to secure websites and applications deployed on AWS services. AWS ACM allows users to provision, manage, and deploy SSL/TLS certificates for use with AWS services such as Elastic Load Balancing, CloudFront, and API Gateway. It provides features such as automated certificate renewal, certificate validation, and integration with AWS services, enabling customers to secure their applications easily.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "193",
+                    "Term": "AWS IoT Greengrass",
+                    "correct_answer": "AWS IoT Greengrass is a software platform provided by AWS for extending AWS cloud capabilities to edge devices such as IoT devices and gateways. AWS IoT Greengrass allows users to run AWS Lambda functions, deploy machine learning models, and process data locally on edge devices, with features such as offline operation, local message routing, and secure device management. It provides a seamless and secure way to extend cloud functionality to edge environments, enabling customers to build edge applications that require low latency and offline operation.",
+                    "question_type": "IoT",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "194",
+                    "Term": "Amazon CloudFront",
+                    "correct_answer": "Amazon CloudFront is a content delivery network (CDN) service provided by AWS for delivering web content and APIs with low latency and high transfer speeds. Amazon CloudFront allows users to cache content at edge locations worldwide, reducing the latency of content delivery to end users. It provides features such as HTTPS support, custom domain integration, and real-time metrics, enabling customers to deliver secure and scalable content distribution for their applications.",
+                    "question_type": "content delivery",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "195",
+                    "Term": "AWS Security Hub",
+                    "correct_answer": "AWS Security Hub is a security and compliance service provided by AWS for aggregating, organizing, and prioritizing security alerts from multiple AWS services and third-party tools. AWS Security Hub allows users to monitor their security posture across AWS accounts and automate compliance checks, with features such as security findings, insights, and automated remediation actions. It provides a centralized view of security and compliance status, enabling customers to improve their security posture and respond to security threats more effectively.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "196",
+                    "Term": "Amazon Managed Service for Grafana (AMG)",
+                    "correct_answer": "Amazon Managed Service for Grafana (AMG) is a fully managed service provided by AWS for visualizing and monitoring data using Grafana dashboards. Amazon AMG allows users to create, explore, and share interactive dashboards for analyzing metrics and logs from various data sources. It provides features such as automatic scaling, long-term storage, and integration with AWS services, enabling customers to gain insights from their data easily.",
+                    "question_type": "monitoring",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "197",
+                    "Term": "AWS Control Tower",
+                    "correct_answer": "AWS Control Tower is a service provided by AWS for setting up and governing a secure, multi-account AWS environment based on AWS best practices and compliance standards. AWS Control Tower allows users to automate the setup of a well-architected AWS environment, with features such as account provisioning, centralized governance, and continuous compliance monitoring. It provides guardrails and blueprints for implementing security and compliance standards, enabling customers to establish a secure and scalable AWS infrastructure.",
+                    "question_type": "governance",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "198",
+                    "Term": "Amazon Managed Streaming for Apache Kafka (MSK)",
+                    "correct_answer": "Amazon Managed Streaming for Apache Kafka (MSK) is a fully managed service provided by AWS for building and managing Apache Kafka clusters in the cloud. Amazon MSK allows users to create and run highly available, scalable, and secure Kafka clusters without the need to manage infrastructure. It provides features such as automatic scaling, data encryption, and integration with AWS services, enabling customers to build real-time streaming applications easily.",
+                    "question_type": "streaming",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "199",
+                    "Term": "AWS Transfer Family",
+                    "correct_answer": "AWS Transfer Family is a suite of fully managed services provided by AWS for transferring files over the internet using protocols such as FTP, FTPS, and SFTP. AWS Transfer Family allows users to securely transfer files to and from AWS services such as Amazon S3 and Amazon EFS, with features such as encryption, access controls, and integration with AWS services. It provides a scalable and reliable solution for file transfer requirements, enabling customers to migrate data to the cloud and automate file transfer workflows.",
+                    "question_type": "data transfer",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "200",
+                    "Term": "AWS Snow Family",
+                    "correct_answer": "AWS Snow Family is a suite of physical devices provided by AWS for transferring large amounts of data to and from the AWS cloud in offline or edge computing environments. The AWS Snow Family includes devices such as AWS Snowcone, Snowball, and Snowmobile, which allow users to securely transfer data using ruggedized, tamper-resistant devices. It provides a scalable and efficient solution for data migration and edge computing scenarios, enabling customers to transfer data securely in challenging environments.",
+                    "question_type": "data transfer",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "201",
+                    "Term": "Amazon EventBridge",
+                    "correct_answer": "Amazon EventBridge is a serverless event bus service provided by AWS for building event-driven architectures. Amazon EventBridge allows users to route and process events from various sources such as AWS services, SaaS applications, and custom applications. It provides features such as event routing, event filtering, and integration with AWS services, enabling customers to build scalable and decoupled event-driven workflows.",
+                    "question_type": "event-driven architecture",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "202",
+                    "Term": "AWS CodePipeline",
+                    "correct_answer": "AWS CodePipeline is a continuous integration and continuous delivery (CI/CD) service provided by AWS for automating software release pipelines. AWS CodePipeline allows users to define and automate the steps required to build, test, and deploy applications, with features such as source code integration, build orchestration, and deployment automation. It provides a scalable and reliable solution for accelerating software delivery and improving the agility of development teams.",
+                    "question_type": "development",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "203",
+                    "Term": "Amazon Elastic Container Service for Kubernetes (Amazon EKS)",
+                    "correct_answer": "Amazon Elastic Container Service for Kubernetes (Amazon EKS) is a managed Kubernetes service provided by AWS for deploying, managing, and scaling containerized applications using Kubernetes. Amazon EKS allows users to run Kubernetes clusters on AWS infrastructure, with features such as automatic scaling, high availability, and integration with AWS services. It provides a managed control plane and simplifies the deployment and operation of Kubernetes clusters, enabling customers to focus on building and running applications.",
+                    "question_type": "containerization",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "204",
+                    "Term": "AWS CloudWatch",
+                    "correct_answer": "AWS CloudWatch is a monitoring and observability service provided by AWS for collecting and analyzing metrics, logs, and events from AWS resources and applications. AWS CloudWatch allows users to gain insights into resource utilization, application performance, and operational health, with features such as customizable dashboards, alarms, and anomaly detection. It provides a centralized platform for monitoring and troubleshooting AWS environments, enabling customers to improve system reliability and performance.",
+                    "question_type": "monitoring",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "205",
+                    "Term": "Amazon Managed Blockchain",
+                    "correct_answer": "Amazon Managed Blockchain is a fully managed blockchain service provided by AWS for creating and managing blockchain networks using popular frameworks such as Hyperledger Fabric and Ethereum. Amazon Managed Blockchain allows users to deploy and manage blockchain networks with features such as scalable infrastructure, built-in security, and automated management tasks. It provides a scalable and reliable solution for building blockchain applications and decentralized trust networks.",
+                    "question_type": "blockchain",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "206",
+                    "Term": "Amazon Polly",
+                    "correct_answer": "Amazon Polly is a text-to-speech (TTS) service provided by AWS for converting text into lifelike speech. Amazon Polly allows users to generate speech from text in multiple languages and voices, with features such as speech synthesis markup language (SSML) support, pronunciation lexicons, and neural text-to-speech (NTTS) technology. It provides a scalable and customizable solution for adding speech capabilities to applications and content, enabling customers to enhance user experiences and accessibility.",
+                    "question_type": "artificial intelligence",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "207",
+                    "Term": "Amazon Lex",
+                    "correct_answer": "Amazon Lex is a service provided by AWS for building conversational interfaces (chatbots) into applications using natural language understanding (NLU) and speech recognition capabilities. Amazon Lex allows users to create chatbots that can understand and respond to user input in text or speech, with features such as intent recognition, slot filling, and context management. It provides a scalable and customizable solution for automating customer interactions and improving user engagement.",
+                    "question_type": "artificial intelligence",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "208",
+                    "Term": "AWS Glue",
+                    "correct_answer": "AWS Glue is a fully managed extract, transform, and load (ETL) service provided by AWS for preparing and transforming data for analytics and machine learning. AWS Glue allows users to create and run ETL jobs to automate data processing tasks, with features such as data cataloging, schema discovery, and job scheduling. It provides integration with other AWS services such as S3, Redshift, and Athena, enabling customers to build scalable and cost-effective data pipelines.",
+                    "question_type": "data analytics",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "209",
+                    "Term": "AWS OpsWorks",
+                    "correct_answer": "AWS OpsWorks is a configuration management service provided by AWS for automating the deployment and management of applications and infrastructure using Chef and Puppet. AWS OpsWorks allows users to define application architecture and configuration using recipes and templates, with features such as automatic scaling, monitoring, and logging. It provides a flexible and scalable solution for managing complex application stacks, enabling customers to deploy and operate applications more efficiently.",
+                    "question_type": "management",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "210",
+                    "Term": "AWS Cost Explorer",
+                    "correct_answer": "AWS Cost Explorer is a cost management service provided by AWS for analyzing and optimizing AWS usage and spending. AWS Cost Explorer allows users to visualize, understand, and forecast their AWS costs and usage patterns, with features such as cost breakdowns, usage reports, and cost anomaly detection. It provides insights into cost drivers and optimization opportunities, enabling customers to manage their AWS spending effectively and maximize their return on investment (ROI).",
+                    "question_type": "cost management",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "211",
+                    "Term": "Amazon Simple Queue Service (SQS)",
+                    "correct_answer": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service provided by AWS for decoupling and scaling microservices, distributed systems, and serverless applications. Amazon SQS allows users to send, receive, and process messages between components of their applications, with features such as message durability, scalability, and serverless operation. It provides a reliable and scalable messaging solution, enabling customers to build resilient and loosely coupled architectures.",
+                    "question_type": "messaging",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "212",
+                    "Term": "Amazon API Gateway",
+                    "correct_answer": "Amazon API Gateway is a fully managed service provided by AWS for building, deploying, and managing APIs at scale. Amazon API Gateway allows users to create RESTful APIs and WebSocket APIs that integrate with backend services such as Lambda functions, EC2 instances, and HTTP endpoints. It provides features such as API versioning, authentication, throttling, and monitoring, enabling customers to build secure and scalable APIs for their applications.",
+                    "question_type": "API management",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "213",
+                    "Term": "AWS Step Functions",
+                    "correct_answer": "AWS Step Functions is a serverless orchestration service provided by AWS for automating and coordinating workflows across AWS services and external systems. AWS Step Functions allows users to define state machines that represent workflows, with features such as branching, error handling, and parallel execution. It provides a visual interface for designing and monitoring workflows, enabling customers to build scalable and resilient applications with complex business logic.",
+                    "question_type": "serverless",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "214",
+                    "Term": "AWS Direct Connect",
+                    "correct_answer": "AWS Direct Connect is a dedicated network connection service provided by AWS for establishing private connectivity between AWS infrastructure and on-premises data centers, offices, or colocation environments. AWS Direct Connect allows users to bypass the public internet and transfer data directly to AWS services, with features such as dedicated bandwidth, consistent network performance, and secure data transmission. It provides a reliable and low-latency connection option, enabling customers to extend their on-premises infrastructure to the AWS cloud securely.",
+                    "question_type": "networking",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "215",
+                    "Term": "Amazon Redshift",
+                    "correct_answer": "Amazon Redshift is a fully managed data warehousing service provided by AWS for analyzing large datasets using SQL queries. Amazon Redshift allows users to create and manage data warehouses that can scale from gigabytes to petabytes of data, with features such as columnar storage, massively parallel processing, and advanced analytics capabilities. It provides high performance and cost-effective solutions for analytics workloads, enabling customers to gain insights from their data.",
+                    "question_type": "data analytics",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "216",
+                    "Term": "Amazon CloudFront",
+                    "correct_answer": "Amazon CloudFront is a content delivery network (CDN) service provided by AWS for delivering web content and APIs with low latency and high transfer speeds. Amazon CloudFront allows users to cache content at edge locations worldwide, reducing the latency of content delivery to end users. It provides features such as HTTPS support, custom domain integration, and real-time metrics, enabling customers to deliver secure and scalable content distribution for their applications.",
+                    "question_type": "content delivery",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                
+                  {
+                    "id": "218",
+                    "Term": "AWS Amplify",
+                    "correct_answer": "AWS Amplify is a set of tools and services provided by AWS for building full-stack web and mobile applications. AWS Amplify allows users to quickly set up and deploy scalable backends, integrate authentication and authorization, and add features such as analytics and AI/ML capabilities to their applications. It provides a unified development experience and enables customers to accelerate their application development lifecycle with best practices and pre-built components.",
+                    "question_type": "development",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "219",
+                    "Term": "Amazon Elasticsearch Service (Amazon ES)",
+                    "correct_answer": "Amazon Elasticsearch Service (Amazon ES) is a managed service provided by AWS for deploying, operating, and scaling Elasticsearch clusters in the AWS cloud. Amazon ES allows users to search, analyze, and visualize large volumes of data in real-time, with features such as automated provisioning, built-in security, and integration with Kibana for visualization and analytics. It provides a scalable and reliable solution for log and event analytics, full-text search, and application monitoring.",
+                    "question_type": "data analytics",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "220",
+                    "Term": "AWS Secrets Manager",
+                    "correct_answer": "AWS Secrets Manager is a service provided by AWS for managing and rotating secrets such as API keys, database credentials, and encryption keys securely. AWS Secrets Manager allows users to store, retrieve, and rotate secrets dynamically, with features such as automatic rotation, fine-grained access controls, and integration with AWS services. It provides a centralized solution for managing sensitive information and helps customers improve their security posture and compliance.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "221",
+                    "Term": "Amazon FSx",
+                    "correct_answer": "Amazon FSx is a fully managed file storage service provided by AWS for Windows File Server and Lustre file systems. Amazon FSx allows users to create and manage file systems that are accessible from Windows and Linux instances, with features such as high availability, data deduplication, and integration with AWS services. It provides a scalable and reliable solution for file storage requirements, enabling customers to deploy file systems for various workloads.",
+                    "question_type": "storage",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "222",
+                    "Term": "AWS Batch",
+                    "correct_answer": "AWS Batch is a fully managed batch processing service provided by AWS for running batch computing workloads at scale. AWS Batch allows users to define and run batch jobs using Docker containers or custom applications, with features such as job scheduling, dependency management, and automatic scaling. It provides a scalable and cost-effective solution for processing large volumes of data or performing compute-intensive tasks in parallel.",
+                    "question_type": "compute",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "223",
+                    "Term": "Amazon Connect",
+                    "correct_answer": "Amazon Connect is a cloud-based contact center service provided by AWS for building customer service experiences. Amazon Connect allows users to set up and manage contact centers in the cloud, with features such as intelligent routing, automatic speech recognition, and real-time analytics. It provides a scalable and flexible solution for organizations to deliver exceptional customer service across voice and chat channels.",
+                    "question_type": "customer service",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "224",
+                    "Term": "AWS Step Functions Data Science SDK",
+                    "correct_answer": "AWS Step Functions Data Science SDK is a Python library provided by AWS for building and executing machine learning workflows using AWS Step Functions. The AWS Step Functions Data Science SDK allows data scientists to define and orchestrate machine learning pipelines that automate data preprocessing, model training, and deployment tasks. It provides a scalable and serverless solution for building and deploying machine learning workflows in the AWS cloud.",
+                    "question_type": "machine learning",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "225",
+                    "Term": "Amazon Managed Streaming for Kafka (MSK)",
+                    "correct_answer": "Amazon Managed Streaming for Kafka (MSK) is a fully managed service provided by AWS for building and managing Apache Kafka clusters in the cloud. Amazon MSK allows users to create and run highly available, scalable, and secure Kafka clusters without the need to manage infrastructure. It provides features such as automatic scaling, data encryption, and integration with AWS services, enabling customers to build real-time streaming applications easily.",
+                    "question_type": "streaming",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "226",
+                    "Term": "AWS Backup",
+                    "correct_answer": "AWS Backup is a centralized backup service provided by AWS for protecting data and applications across AWS services and on-premises environments. AWS Backup allows users to create backup policies, automate backup schedules, and manage backup copies from a single console, with features such as cross-region backup, data lifecycle management, and integration with AWS services. It provides a scalable and cost-effective solution for data protection and disaster recovery, enabling customers to meet their backup and compliance requirements.",
+                    "question_type": "backup",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "227",
+                    "Term": "Amazon Chime",
+                    "correct_answer": "Amazon Chime is a communication service provided by AWS for online meetings, video conferencing, and business messaging. Amazon Chime allows users to host or join online meetings, share screens, and collaborate in real-time across devices, with features such as chat, file sharing, and integration with productivity tools. It provides a secure and reliable solution for remote collaboration and team communication, enabling organizations to connect and collaborate effectively.",
+                    "question_type": "communication",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "228",
+                    "Term": "Amazon Kendra",
+                    "correct_answer": "Amazon Kendra is an intelligent search service provided by AWS for powering enterprise search applications. Amazon Kendra allows users to index and search unstructured data across multiple sources such as documents, websites, and databases, with features such as natural language understanding, relevance tuning, and real-time indexing. It provides a scalable and accurate search solution, enabling organizations to find relevant information quickly and efficiently.",
+                    "question_type": "search",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "229",
+                    "Term": "AWS Snowcone",
+                    "correct_answer": "AWS Snowcone is a small, ruggedized, and portable data transfer device provided by AWS for collecting, processing, and transferring data in challenging environments. AWS Snowcone allows users to deploy applications and run AWS services in edge locations with limited connectivity or infrastructure, with features such as data encryption, rugged design, and integration with AWS services. It provides a secure and efficient solution for edge computing and data migration scenarios, enabling customers to extend their applications to the edge seamlessly.",
+                    "question_type": "data transfer",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "230",
+                    "Term": "Amazon Managed Service for Prometheus (AMP)",
+                    "correct_answer": "Amazon Managed Service for Prometheus (AMP) is a scalable and highly available service provided by AWS for monitoring containerized applications using Prometheus. Amazon AMP allows users to collect, query, and visualize metrics from containerized applications and infrastructure, with features such as managed Prometheus servers, long-term storage, and integration with AWS services. It provides a scalable and cost-effective solution for monitoring containerized workloads in the AWS cloud, enabling customers to gain insights into application performance and reliability.",
+                    "question_type": "monitoring",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "231",
+                    "Term": "AWS Key Management Service (KMS)",
+                    "correct_answer": "AWS Key Management Service (KMS) is a managed service provided by AWS for creating and controlling encryption keys used to encrypt data stored in AWS services and applications. AWS KMS allows users to generate, store, and manage encryption keys securely, with features such as key rotation, audit logging, and integration with AWS services. It provides a scalable and cost-effective solution for protecting sensitive data and achieving regulatory compliance.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "232",
+                    "Term": "AWS AppConfig",
+                    "correct_answer": "AWS AppConfig is a configuration management service provided by AWS for managing application configurations dynamically. AWS AppConfig allows users to deploy configurations to applications in real-time, with features such as environment-based configurations, validation checks, and monitoring. It provides a scalable and reliable solution for managing application settings and feature flags, enabling customers to deploy changes quickly and safely.",
+                    "question_type": "management",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "233",
+                    "Term": "Amazon Elastic Kubernetes Service (EKS)",
+                    "correct_answer": "Amazon Elastic Kubernetes Service (EKS) is a managed Kubernetes service provided by AWS for running containerized applications using Kubernetes. Amazon EKS allows users to deploy, manage, and scale Kubernetes clusters in the AWS cloud, with features such as automatic scaling, security patches, and integration with AWS services. It provides a reliable and scalable solution for running production-grade Kubernetes workloads, enabling customers to focus on building and deploying applications.",
+                    "question_type": "containerization",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "234",
+                    "Term": "AWS IoT Core",
+                    "correct_answer": "AWS IoT Core is a managed cloud service provided by AWS for connecting and managing Internet of Things (IoT) devices securely. AWS IoT Core allows users to connect devices to the AWS cloud, collect and analyze data, and trigger actions based on device events, with features such as device registry, message brokering, and device shadows. It provides a scalable and reliable infrastructure for building IoT applications and solutions, enabling customers to innovate and optimize their operations.",
+                    "question_type": "IoT",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "235",
+                    "Term": "Amazon Quantum Ledger Database (QLDB)",
+                    "correct_answer": "Amazon Quantum Ledger Database (QLDB) is a fully managed ledger database service provided by AWS for providing transparent, immutable, and cryptographically verifiable transaction logs. Amazon QLDB allows users to build applications that require a centralized, tamper-resistant, and auditable record of all changes, with features such as cryptographic verification, journaling, and SQL-like querying. It provides a scalable and highly available solution for building applications with immutable transaction logs, enabling customers to maintain data integrity and auditability.",
+                    "question_type": "database",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "236",
+                    "Term": "AWS CodeArtifact",
+                    "correct_answer": "AWS CodeArtifact is a fully managed artifact repository service provided by AWS for managing software packages and dependencies. AWS CodeArtifact allows users to store, publish, and share packages using package managers such as Maven, npm, and PyPI, with features such as access control, versioning, and artifact caching. It provides a scalable and secure solution for managing dependencies and artifacts across development teams and CI/CD pipelines.",
+                    "question_type": "development",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "237",
+                    "Term": "Amazon CloudWatch Synthetics",
+                    "correct_answer": "Amazon CloudWatch Synthetics is a monitoring service provided by AWS for monitoring application endpoints and user experiences. Amazon CloudWatch Synthetics allows users to create canaries, which are scripts that simulate user interactions with applications, with features such as customizable scripts, scheduled runs, and alerting. It provides a proactive monitoring solution for detecting application issues and performance degradation, enabling customers to ensure a seamless user experience.",
+                    "question_type": "monitoring",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "238",
+                    "Term": "AWS Fargate",
+                    "correct_answer": "AWS Fargate is a serverless compute engine provided by AWS for running containers without managing servers or clusters. AWS Fargate allows users to deploy containerized applications in the cloud without the need to provision or manage infrastructure, with features such as automatic scaling, security isolation, and pay-as-you-go pricing. It provides a scalable and cost-effective solution for deploying and managing containerized workloads, enabling customers to focus on building and running applications.",
+                    "question_type": "containerization",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "239",
+                    "Term": "Amazon FSx for Lustre",
+                    "correct_answer": "Amazon FSx for Lustre is a high-performance file system provided by AWS for processing large datasets with high throughput and low latency. Amazon FSx for Lustre allows users to create and manage Lustre file systems in the AWS cloud, with features such as sub-millisecond latencies, POSIX compatibility, and integration with S3. It provides a scalable and cost-effective solution for workloads such as machine learning, high-performance computing, and media processing.",
+                    "question_type": "storage",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "240",
+                    "Term": "AWS Network Firewall",
+                    "correct_answer": "AWS Network Firewall is a managed firewall service provided by AWS for protecting virtual private clouds (VPCs) from threats such as unauthorized access, malware, and DDoS attacks. AWS Network Firewall allows users to create and manage firewall rules centrally, with features such as stateful inspection, intrusion prevention, and logging. It provides a scalable and resilient solution for securing network traffic in the AWS cloud, enabling customers to enforce security policies and compliance requirements.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  }{
+                    "id": "241",
+                    "Term": "AWS Glue",
+                    "correct_answer": "AWS Glue is a fully managed extract, transform, and load (ETL) service provided by AWS for preparing and loading data for analytics. AWS Glue allows users to create and run ETL jobs to extract data from various sources, transform it into a format suitable for analysis, and load it into data lakes or data warehouses. It provides features such as automatic schema discovery, job scheduling, and serverless execution, enabling customers to build scalable and cost-effective data pipelines.",
+                    "question_type": "data analytics",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "242",
+                    "Term": "Amazon GuardDuty",
+                    "correct_answer": "Amazon GuardDuty is a threat detection service provided by AWS for protecting AWS accounts and workloads from security threats. Amazon GuardDuty continuously monitors account activity and network traffic for malicious behavior, with features such as threat detection, anomaly detection, and threat intelligence integration. It provides a proactive security solution for identifying and remediating security threats, enabling customers to strengthen their security posture in the AWS cloud.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "243",
+                    "Term": "AWS Elemental MediaConvert",
+                    "correct_answer": "AWS Elemental MediaConvert is a file-based video transcoding service provided by AWS for converting media files into various formats suitable for playback on different devices. AWS Elemental MediaConvert allows users to create custom transcoding jobs to convert video and audio files, with features such as presets, captions, and encryption. It provides a scalable and cost-effective solution for video processing workflows, enabling customers to deliver high-quality media content to their audiences.",
+                    "question_type": "media processing",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "244",
+                    "Term": "Amazon Managed Service for Grafana (AMG)",
+                    "correct_answer": "Amazon Managed Service for Grafana (AMG) is a fully managed service provided by AWS for visualizing and monitoring data using Grafana dashboards. Amazon AMG allows users to create, explore, and share dashboards for visualizing metrics and logs from various data sources, with features such as data source integration, dashboard sharing, and alerting. It provides a scalable and cost-effective solution for monitoring and analyzing operational data in real-time, enabling customers to gain insights into their applications and infrastructure.",
+                    "question_type": "monitoring",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "245",
+                    "Term": "AWS CloudTrail",
+                    "correct_answer": "AWS CloudTrail is a logging and monitoring service provided by AWS for recording API calls and activity within AWS accounts. AWS CloudTrail allows users to capture and analyze event history for security analysis, resource change tracking, and compliance auditing, with features such as log file encryption, event filtering, and integration with AWS services. It provides a comprehensive audit trail for understanding account activity and resource utilization in the AWS cloud.",
+                    "question_type": "monitoring",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "246",
+                    "Term": "Amazon Personalize",
+                    "correct_answer": "Amazon Personalize is a machine learning service provided by AWS for building personalized recommendations for users. Amazon Personalize allows users to create custom recommendation models based on user behavior and preferences, with features such as real-time recommendations, batch recommendations, and campaign management. It provides a scalable and accurate solution for delivering personalized experiences in applications such as e-commerce, media streaming, and content recommendation.",
+                    "question_type": "machine learning",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "247",
+                    "Term": "Amazon S3 Glacier",
+                    "correct_answer": "Amazon S3 Glacier is a low-cost storage service provided by AWS for long-term data archiving and backup. Amazon S3 Glacier allows users to store data for archival purposes at a fraction of the cost of standard Amazon S3 storage, with features such as data durability, retrieval options, and lifecycle policies. It provides a secure and durable solution for storing infrequently accessed data, enabling customers to reduce storage costs and comply with data retention requirements.",
+                    "question_type": "storage",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "248",
+                    "Term": "AWS Elemental MediaLive",
+                    "correct_answer": "AWS Elemental MediaLive is a broadcast-grade live video processing service provided by AWS for encoding and streaming live video content. AWS Elemental MediaLive allows users to create live video streams with features such as encoding presets, adaptive bitrate streaming, and integrated content protection. It provides a reliable and scalable solution for delivering high-quality live video experiences to audiences across devices and platforms.",
+                    "question_type": "media processing",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "249",
+                    "Term": "Amazon Timestream",
+                    "correct_answer": "Amazon Timestream is a fully managed time-series database service provided by AWS for collecting, storing, and analyzing time-series data. Amazon Timestream allows users to ingest data at scale, with features such as automatic data retention, query optimization, and native time-series functions. It provides a scalable and cost-effective solution for IoT applications, monitoring systems, and operational analytics, enabling customers to gain insights from time-series data in real-time.",
+                    "question_type": "database",
+                    "test": "amazon web service cloud practitioner"
+                  },
+                  {
+                    "id": "250",
+                    "Term": "AWS Secrets Manager",
+                    "correct_answer": "AWS Secrets Manager is a service provided by AWS for managing and rotating secrets such as API keys, database credentials, and encryption keys securely. AWS Secrets Manager allows users to store, retrieve, and rotate secrets dynamically, with features such as automatic rotation, fine-grained access controls, and integration with AWS services. It provides a centralized solution for managing sensitive information and helps customers improve their security posture and compliance.",
+                    "question_type": "security",
+                    "test": "amazon web service cloud practitioner"
+                  }
+
+              
+              
+    ]
+        
+    
+    
+    
+    
+    
+    

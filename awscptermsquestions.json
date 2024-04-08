@@ -1,0 +1,1325 @@
+[
+    {
+      "id": "1",
+      "question": "What is Amazon DynamoDB?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A service for deploying and managing containers",
+        "A fully managed NoSQL database service",
+        "A fully managed relational database service"
+      ],
+      "correct_answer": "A fully managed NoSQL database service.",
+      "explanation": "Amazon DynamoDB is a fast and flexible NoSQL database service for any scale."
+    },
+    {
+      "id": "2",
+      "question": "What is Amazon S3?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A service for deploying and managing containers",
+        "A fully managed NoSQL database service",
+        "A fully managed object storage service"
+      ],
+      "correct_answer": "A fully managed object storage service.",
+      "explanation": "Amazon S3 is a highly scalable, reliable, and low-latency object storage service."
+    },
+    {
+      "id": "3",
+      "question": "What is AWS Lambda?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A serverless compute service",
+        "A fully managed NoSQL database service",
+        "A fully managed relational database service"
+      ],
+      "correct_answer": "A serverless compute service.",
+      "explanation": "AWS Lambda lets you run code without provisioning or managing servers."
+    },
+    {
+      "id": "4",
+      "question": "What is AWS RDS?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A fully managed relational database service",
+        "A service for deploying and managing containers",
+        "A fully managed NoSQL database service"
+      ],
+      "correct_answer": "A fully managed relational database service.",
+      "explanation": "AWS RDS makes it easy to set up, operate, and scale relational databases in the cloud."
+    },
+    {
+      "id": "5",
+      "question": "What is Amazon EC2?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A service for deploying and managing containers",
+        "A fully managed NoSQL database service",
+        "A web service that provides resizable compute capacity in the cloud"
+      ],
+      "correct_answer": "A web service that provides resizable compute capacity in the cloud.",
+      "explanation": "Amazon EC2 allows you to launch virtual servers in the cloud."
+    },
+    {
+      "id": "6",
+      "question": "What is Amazon ECS?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A service for deploying and managing containers",
+        "A fully managed NoSQL database service",
+        "A web service that provides resizable compute capacity in the cloud"
+      ],
+      "correct_answer": "A service for deploying and managing containers.",
+      "explanation": "Amazon ECS is a fully managed container orchestration service."
+    },
+    {
+      "id": "7",
+      "question": "What is AWS S3 Glacier?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A service for deploying and managing containers",
+        "A low-cost storage service for long-term data archival",
+        "A fully managed NoSQL database service"
+      ],
+      "correct_answer": "A low-cost storage service for long-term data archival.",
+      "explanation": "AWS S3 Glacier is designed for data archival and long-term backup."
+    },
+    {
+      "id": "8",
+      "question": "What is Amazon Redshift?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A fully managed relational database service",
+        "A service for deploying and managing containers",
+        "A fully managed NoSQL database service"
+      ],
+      "correct_answer": "A fully managed relational database service.",
+      "explanation": "Amazon Redshift is a fully managed data warehousing service."
+    },
+    {
+      "id": "9",
+      "question": "What is Amazon SNS?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A service for deploying and managing containers",
+        "A fully managed NoSQL database service",
+        "A fully managed messaging service"
+      ],
+      "correct_answer": "A fully managed messaging service.",
+      "explanation": "Amazon SNS enables you to publish messages to topics and deliver them to subscribers."
+    },
+    {
+      "id": "10",
+      "question": "What is Amazon VPC?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A service for deploying and managing containers",
+        "A fully managed NoSQL database service",
+        "A service that lets you provision a logically isolated section of the AWS cloud"
+      ],
+      "correct_answer": "A service that lets you provision a logically isolated section of the AWS cloud.",
+      "explanation": "Amazon VPC allows you to define a virtual network in the AWS cloud."
+    },
+    {
+      "id": "11",
+      "question": "What is AWS IAM?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A service for deploying and managing containers",
+        "A fully managed NoSQL database service",
+        "A service for managing user access to AWS resources"
+      ],
+      "correct_answer": "A service for managing user access to AWS resources.",
+      "explanation": "AWS IAM enables you to securely control access to AWS services and resources."
+    },
+    {
+      "id": "12",
+      "question": "What is Amazon CloudWatch?",
+      "choices": [
+        "A service for securely transferring files over the internet into and out of Amazon S3",
+        "A service for deploying and managing containers",
+        "A service for monitoring and logging AWS resources and applications",
+        "A fully managed NoSQL database service"
+      ],
+      "correct_answer": "A service for monitoring and logging AWS resources and applications.",
+      "explanation": "Amazon CloudWatch provides monitoring and observability for AWS cloud resources and applications."
+    },
+    {
+        "id": "13",
+        "question": "What is Amazon Kinesis?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A fully managed NoSQL database service",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A service for processing and analyzing real-time streaming data.",
+        "explanation": "Amazon Kinesis enables you to collect, process, and analyze real-time data streams with ease."
+      },
+      {
+        "id": "14",
+        "question": "What is AWS Glue?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A fully managed ETL (Extract, Transform, Load) service",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A fully managed ETL (Extract, Transform, Load) service.",
+        "explanation": "AWS Glue makes it easy to prepare and load data for analytics by providing ETL capabilities."
+      },
+      {
+        "id": "15",
+        "question": "What is Amazon SQS?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A fully managed message queuing service",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A fully managed message queuing service.",
+        "explanation": "Amazon SQS enables you to decouple and scale microservices, distributed systems, and serverless applications."
+      },
+      {
+        "id": "16",
+        "question": "What is AWS Direct Connect?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for establishing private connectivity between AWS and your datacenter, office, or colocation environment",
+          "A fully managed NoSQL database service",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A service for establishing private connectivity between AWS and your datacenter, office, or colocation environment.",
+        "explanation": "AWS Direct Connect provides a dedicated network connection from your premises to AWS."
+      },
+      {
+        "id": "17",
+        "question": "What is Amazon Aurora?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A fully managed relational database service",
+          "A service for deploying and managing containers",
+          "A service for processing and analyzing real-time streaming data"
+        ],
+        "correct_answer": "A fully managed relational database service.",
+        "explanation": "Amazon Aurora is a high-performance, fully managed relational database compatible with MySQL and PostgreSQL."
+      },
+      {
+        "id": "18",
+        "question": "What is AWS CodePipeline?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for automating the build, test, and deployment of applications",
+          "A service for processing and analyzing real-time streaming data",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A service for automating the build, test, and deployment of applications.",
+        "explanation": "AWS CodePipeline enables you to automate the release process for your software."
+      },
+      {
+        "id": "19",
+        "question": "What is Amazon CloudFront?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A content delivery network (CDN) service",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A content delivery network (CDN) service.",
+        "explanation": "Amazon CloudFront delivers content to end users with low latency and high transfer speeds."
+      },
+      {
+        "id": "20",
+        "question": "What is AWS DataSync?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for migrating data between on-premises storage and AWS",
+          "A service for processing and analyzing real-time streaming data",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A service for migrating data between on-premises storage and AWS.",
+        "explanation": "AWS DataSync makes it easy to transfer data between your on-premises storage and AWS."
+      },
+      {
+        "id": "21",
+        "question": "What is Amazon SES?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A fully managed email sending service",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A fully managed email sending service.",
+        "explanation": "Amazon SES enables you to send emails securely and at scale."
+      },
+      {
+        "id": "22",
+        "question": "What is AWS IoT Core?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A service for securely connecting devices to the cloud",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A service for securely connecting devices to the cloud.",
+        "explanation": "AWS IoT Core enables you to connect IoT devices to the AWS cloud securely."
+      },
+      {
+        "id": "23",
+        "question": "What is Amazon Polly?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A service for text-to-speech conversion",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A service for text-to-speech conversion.",
+        "explanation": "Amazon Polly converts text into lifelike speech using advanced deep learning technologies."
+      },
+      {
+        "id": "24",
+        "question": "What is AWS Secrets Manager?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A service for managing access to sensitive information",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A service for managing access to sensitive information.",
+        "explanation": "AWS Secrets Manager helps you securely store and manage your secrets."
+      },
+      {
+        "id": "25",
+        "question": "What is AWS Elemental MediaConvert?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A service for media file transcoding",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A service for media file transcoding.",
+        "explanation": "AWS Elemental MediaConvert converts media files into formats suitable for various devices."
+      },
+      {
+        "id": "26",
+        "question": "What is Amazon Route 53?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A highly available and scalable DNS web service",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A highly available and scalable DNS web service.",
+        "explanation": "Amazon Route 53 provides reliable and cost-effective domain name system (DNS) services."
+      },
+      {
+        "id": "27",
+        "question": "What is AWS Shield?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A managed Distributed Denial of Service (DDoS) protection service",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A managed Distributed Denial of Service (DDoS) protection service.",
+        "explanation": "AWS Shield helps protect web applications running on AWS against DDoS attacks."
+      },
+      {
+        "id": "28",
+        "question": "What is Amazon EBS?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for processing and analyzing real-time streaming data",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A service for provisioning highly available and scalable cloud storage volumes.",
+        "explanation": "Amazon EBS provides persistent block storage volumes for use with Amazon EC2 instances."
+      },
+      {
+        "id": "29",
+        "question": "What is AWS CloudFormation?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources",
+          "A service for deploying and managing containers"
+        ],
+        "correct_answer": "A service for automating the deployment and management of AWS resources.",
+        "explanation": "AWS CloudFormation allows you to define your infrastructure as code and provision resources in a repeatable manner."
+      },
+      {
+        "id": "30",
+        "question": "What is AWS Elastic Beanstalk?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for deploying and managing containers",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for deploying and managing containers.",
+        "explanation": "AWS Elastic Beanstalk makes it easy to deploy and manage applications in the AWS cloud without worrying about infrastructure."
+      },
+      {
+        "id": "31",
+        "question": "What is Amazon ECS?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for deploying and managing containers",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for deploying and managing containers.",
+        "explanation": "Amazon ECS is a fully managed container orchestration service."
+      },
+      {
+        "id": "32",
+        "question": "What is AWS Lambda?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A serverless compute service",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A serverless compute service.",
+        "explanation": "AWS Lambda allows you to run code without provisioning or managing servers."
+      },
+      {
+        "id": "33",
+        "question": "What is AWS CloudWatch?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for monitoring and logging AWS resources and applications",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for monitoring and logging AWS resources and applications.",
+        "explanation": "Amazon CloudWatch provides monitoring and observability for AWS cloud resources and applications."
+      },
+      {
+        "id": "34",
+        "question": "What is AWS CodeCommit?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A source control service",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A source control service.",
+        "explanation": "AWS CodeCommit is a fully managed source control service."
+      },
+      {
+        "id": "35",
+        "question": "What is Amazon SNS?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A fully managed messaging service",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fully managed messaging service.",
+        "explanation": "Amazon SNS enables you to publish messages to topics and deliver them to subscribers."
+      },
+      {
+        "id": "36",
+        "question": "What is AWS Direct Connect?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for establishing private connectivity between AWS and your datacenter, office, or colocation environment",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for establishing private connectivity between AWS and your datacenter, office, or colocation environment.",
+        "explanation": "AWS Direct Connect provides a dedicated network connection from your premises to AWS."
+      },
+      {
+        "id": "37",
+        "question": "What is AWS IAM?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for managing user access to AWS resources",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for managing user access to AWS resources.",
+        "explanation": "AWS IAM enables you to securely control access to AWS services and resources."
+      },
+      {
+        "id": "38",
+        "question": "What is Amazon RDS?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A fully managed relational database service",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fully managed relational database service.",
+        "explanation": "Amazon RDS makes it easy to set up, operate, and scale relational databases in the cloud."
+      },
+      {
+        "id": "39",
+        "question": "What is Amazon CloudFront?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A content delivery network (CDN) service",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A content delivery network (CDN) service.",
+        "explanation": "Amazon CloudFront delivers content to end users with low latency and high transfer speeds."
+      },
+      {
+        "id": "40",
+        "question": "What is AWS CodePipeline?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the build, test, and deployment of applications",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for automating the build, test, and deployment of applications.",
+        "explanation": "AWS CodePipeline enables you to automate the release process for your software."
+      },
+      {
+        "id": "41",
+        "question": "What is AWS S3 Glacier?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for archiving data to highly durable and low-cost storage",
+          "A service for processing and analyzing real-time streaming data",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for archiving data to highly durable and low-cost storage.",
+        "explanation": "AWS S3 Glacier provides secure and durable storage for data archiving and long-term backup."
+      },
+      {
+        "id": "42",
+        "question": "What is Amazon EMR?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for processing and analyzing real-time streaming data",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for processing and analyzing real-time streaming data.",
+        "explanation": "Amazon EMR is a fully managed big data platform for processing and analyzing large datasets."
+      },
+      {
+        "id": "43",
+        "question": "What is AWS Redshift?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A fully managed data warehouse service",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fully managed data warehouse service.",
+        "explanation": "Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service."
+      },
+      {
+        "id": "44",
+        "question": "What is AWS IoT Core?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for securely connecting devices to the cloud",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for securely connecting devices to the cloud.",
+        "explanation": "AWS IoT Core enables you to connect IoT devices to the AWS cloud securely."
+      },
+      {
+        "id": "45",
+        "question": "What is AWS Batch?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for running batch computing workloads at scale",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for running batch computing workloads at scale.",
+        "explanation": "AWS Batch allows you to define and run batch jobs using Docker containers or custom applications."
+      },
+      {
+        "id": "46",
+        "question": "What is AWS X-Ray?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for monitoring and debugging distributed applications",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for monitoring and debugging distributed applications.",
+        "explanation": "AWS X-Ray helps you analyze and debug production, distributed applications."
+      },
+      {
+        "id": "47",
+        "question": "What is Amazon CloudSearch?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for building search solutions",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for building search solutions.",
+        "explanation": "Amazon CloudSearch enables you to set up, manage, and scale a search solution for your website or application."
+      },
+      {
+        "id": "48",
+        "question": "What is AWS Lake Formation?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for building data lakes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for building data lakes.",
+        "explanation": "AWS Lake Formation simplifies the process of creating and managing data lakes."
+      },
+      {
+        "id": "49",
+        "question": "What is Amazon Athena?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for querying data stored in Amazon S3 using SQL",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for querying data stored in Amazon S3 using SQL.",
+        "explanation": "Amazon Athena allows you to analyze data in Amazon S3 using standard SQL."
+      },
+      {
+        "id": "50",
+        "question": "What is AWS Data Pipeline?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for orchestrating and automating the movement and transformation of data",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for orchestrating and automating the movement and transformation of data.",
+        "explanation": "AWS Data Pipeline enables you to process and move data between different AWS services and on-premises data sources."
+      },
+      {
+        "id": "51",
+        "question": "What is Amazon Elastic File System (EFS)?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A fully managed file storage service for Amazon EC2 instances",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fully managed file storage service for Amazon EC2 instances.",
+        "explanation": "Amazon EFS provides scalable file storage for use with Amazon EC2 instances."
+      },
+      {
+        "id": "52",
+        "question": "What is AWS Key Management Service (KMS)?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for managing encryption keys.",
+        "explanation": "AWS KMS allows you to create and control the encryption keys used to encrypt your data."
+      },
+      {
+        "id": "53",
+        "question": "What is AWS Organizations?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing your AWS accounts and resources",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for managing your AWS accounts and resources.",
+        "explanation": "AWS Organizations helps you centrally manage and govern your AWS environment."
+      },
+      {
+        "id": "54",
+        "question": "What is AWS Step Functions?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for orchestrating and automating workflows",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for orchestrating and automating workflows.",
+        "explanation": "AWS Step Functions enables you to coordinate the components of distributed applications using visual workflows."
+      },
+      {
+        "id": "55",
+        "question": "What is Amazon MQ?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A fully managed message broker service",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fully managed message broker service.",
+        "explanation": "Amazon MQ is a managed message broker service for Apache ActiveMQ."
+      },
+      {
+        "id": "56",
+        "question": "What is AWS Glue?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for data integration and ETL (extract, transform, load)",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for data integration and ETL (extract, transform, load).",
+        "explanation": "AWS Glue is a fully managed extract, transform, and load (ETL) service."
+      },
+      {
+        "id": "57",
+        "question": "What is AWS IoT Greengrass?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for securely connecting devices to the cloud",
+          "A service for deploying machine learning models on edge devices",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for deploying machine learning models on edge devices.",
+        "explanation": "AWS IoT Greengrass extends AWS IoT Core functionality to edge devices."
+      },
+      {
+        "id": "58",
+        "question": "What is AWS Amplify?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for building web and mobile apps",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for building web and mobile apps.",
+        "explanation": "AWS Amplify provides a set of tools and services for building scalable full-stack applications."
+      },
+      {
+        "id": "59",
+        "question": "What is Amazon CloudWatch Logs?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for monitoring and analyzing log data",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for monitoring and analyzing log data.",
+        "explanation": "Amazon CloudWatch Logs allows you to monitor, store, and access log files from AWS resources."
+      },
+      {
+        "id": "60",
+        "question": "What is AWS Transfer Family?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for securely transferring files over the internet into and out of Amazon S3.",
+        "explanation": "AWS Transfer Family provides fully managed Secure File Transfer Protocol (SFTP), FTPS (FTP Secure), and FTP (File Transfer Protocol) services."
+      },
+      {
+        "id": "61",
+        "question": "What is Amazon API Gateway?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for building and managing APIs",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for building and managing APIs.",
+        "explanation": "Amazon API Gateway enables you to create, publish, maintain, monitor, and secure APIs at any scale."
+      },
+      {
+        "id": "62",
+        "question": "What is AWS IoT Device Management?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for securely connecting devices to the cloud",
+          "A service for managing fleets of IoT devices",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for managing fleets of IoT devices.",
+        "explanation": "AWS IoT Device Management helps you onboard, organize, monitor, and remotely manage IoT devices."
+      },
+      {
+        "id": "63",
+        "question": "What is AWS Direct Connect?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for establishing dedicated network connections between your network and AWS",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for establishing dedicated network connections between your network and AWS.",
+        "explanation": "AWS Direct Connect enables you to establish private connectivity between AWS and your datacenter, office, or colocation environment."
+      },
+      {
+        "id": "64",
+        "question": "What is Amazon Cognito?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing user identities and authentication",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for managing user identities and authentication.",
+        "explanation": "Amazon Cognito provides authentication, authorization, and user management for web and mobile apps."
+      },
+      {
+        "id": "65",
+        "question": "What is AWS DataSync?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating data transfer between on-premises storage and AWS"
+        ],
+        "correct_answer": "A service for automating data transfer between on-premises storage and AWS.",
+        "explanation": "AWS DataSync makes it easy to automate the transfer of data between on-premises storage and AWS."
+      },
+      {
+        "id": "66",
+        "question": "What is Amazon Pinpoint?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for building and running mobile apps",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for building and running mobile apps.",
+        "explanation": "Amazon Pinpoint is a fully managed service for engaging with customers via email, SMS, push notifications, and voice."
+      },
+      {
+        "id": "67",
+        "question": "What is AWS Resource Access Manager (RAM)?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for sharing AWS resources with other AWS accounts",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for sharing AWS resources with other AWS accounts.",
+        "explanation": "AWS Resource Access Manager (RAM) enables you to share AWS resources with other AWS accounts without having to create duplicate resources."
+      },
+      {
+        "id": "68",
+        "question": "What is AWS Elemental MediaConvert?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for converting media files into different formats",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for converting media files into different formats.",
+        "explanation": "AWS Elemental MediaConvert is a file-based video transcoding service."
+      },
+      {
+        "id": "69",
+        "question": "What is AWS Backup?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing backups of AWS resources",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for managing backups of AWS resources.",
+        "explanation": "AWS Backup is a centralized backup service for AWS resources."
+      },
+      {
+        "id": "70",
+        "question": "What is Amazon Lex?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for building conversational interfaces",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for building conversational interfaces.",
+        "explanation": "Amazon Lex is a service for building conversational interfaces using voice and text."
+      },
+      {
+        "id": "71",
+        "question": "What is Amazon ElastiCache?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A fully managed in-memory caching service",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fully managed in-memory caching service.",
+        "explanation": "Amazon ElastiCache allows you to deploy, operate, and scale in-memory cache clusters."
+      },
+      {
+        "id": "72",
+        "question": "What is Amazon QuickSight?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A fully managed data visualization service",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fully managed data visualization service.",
+        "explanation": "Amazon QuickSight is a cloud-powered business intelligence service that enables you to easily create and publish interactive dashboards."
+      },
+      {
+        "id": "73",
+        "question": "What is AWS CodeBuild?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for building and testing code",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for building and testing code.",
+        "explanation": "AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces software packages."
+      },
+      {
+        "id": "74",
+        "question": "What is AWS CloudFormation?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for automating the deployment and management of AWS resources.",
+        "explanation": "AWS CloudFormation allows you to define and provision AWS infrastructure as code."
+      },
+      {
+        "id": "75",
+        "question": "What is Amazon Route 53?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing DNS and routing traffic",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for managing DNS and routing traffic.",
+        "explanation": "Amazon Route 53 is a scalable and highly available Domain Name System (DNS) web service."
+      },
+      {
+        "id": "76",
+        "question": "What is AWS CodeDeploy?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for automating software deployments to a variety of compute services",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for automating software deployments to a variety of compute services.",
+        "explanation": "AWS CodeDeploy is a fully managed deployment service that automates software deployments to a variety of compute services such as Amazon EC2, AWS Lambda, and instances running on-premises."
+      },
+      {
+        "id": "77",
+        "question": "What is AWS CodeCommit?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing source code repositories",
+          "A service for provisioning highly available and scalable cloud storage volumes",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for managing source code repositories.",
+        "explanation": "AWS CodeCommit is a fully managed source control service that hosts secure Git-based repositories."
+      },
+      {
+        "id": "78",
+        "question": "What is Amazon Kinesis?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for collecting, processing, and analyzing real-time, streaming data",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for collecting, processing, and analyzing real-time, streaming data.",
+        "explanation": "Amazon Kinesis enables you to ingest, buffer, and process streaming data in real-time."
+      },
+      {
+        "id": "79",
+        "question": "What is Amazon Polly?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for converting text into lifelike speech",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for converting text into lifelike speech.",
+        "explanation": "Amazon Polly is a service that turns text into lifelike speech."
+      },
+      {
+        "id": "80",
+        "question": "What is AWS Certificate Manager (ACM)?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for provisioning SSL/TLS certificates for your AWS resources",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for provisioning SSL/TLS certificates for your AWS resources.",
+        "explanation": "AWS Certificate Manager (ACM) handles the complexity of creating, deploying, and managing SSL/TLS certificates for your AWS-based websites and applications."
+      },
+      {
+        "id": "81",
+        "question": "What is Amazon Elasticsearch Service?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for deploying, operating, and scaling Elasticsearch clusters",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for deploying, operating, and scaling Elasticsearch clusters.",
+        "explanation": "Amazon Elasticsearch Service makes it easy to deploy, operate, and scale Elasticsearch clusters in the AWS Cloud."
+      },
+      {
+        "id": "82",
+        "question": "What is AWS WAF (Web Application Firewall)?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for protecting web applications from common web exploits",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for protecting web applications from common web exploits.",
+        "explanation": "AWS WAF is a web application firewall that helps protect your web applications from common web exploits."
+      },
+      {
+        "id": "83",
+        "question": "What is AWS Cloud9?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A cloud-based integrated development environment (IDE)",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A cloud-based integrated development environment (IDE).",
+        "explanation": "AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug code with just a browser."
+      },
+      {
+        "id": "84",
+        "question": "What is AWS AppSync?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for building scalable and secure GraphQL APIs",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for building scalable and secure GraphQL APIs.",
+        "explanation": "AWS AppSync simplifies application development by letting you create a flexible API to securely access, manipulate, and combine data from one or more data sources."
+      },
+      {
+        "id": "85",
+        "question": "What is AWS Firewall Manager?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for centrally managing and configuring firewall rules across AWS accounts",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for centrally managing and configuring firewall rules across AWS accounts.",
+        "explanation": "AWS Firewall Manager is a security management service that makes it easier to centrally configure and manage AWS WAF rules across your accounts and applications."
+      },
+      {
+        "id": "86",
+        "question": "What is AWS X-Ray?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for monitoring, troubleshooting, and optimizing distributed applications",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for monitoring, troubleshooting, and optimizing distributed applications.",
+        "explanation": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture."
+      },
+      {
+        "id": "87",
+        "question": "What is AWS RoboMaker?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for building, simulating, and deploying intelligent robotics applications",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for building, simulating, and deploying intelligent robotics applications.",
+        "explanation": "AWS RoboMaker is a service that makes it easy to develop, test, and deploy intelligent robotics applications at scale."
+      },
+      {
+        "id": "88",
+        "question": "What is AWS Elemental MediaTailor?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for delivering personalized ad experiences",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for delivering personalized ad experiences.",
+        "explanation": "AWS Elemental MediaTailor allows video providers to insert targeted advertising into video streams without sacrificing broadcast-level quality-of-service."
+      },
+      {
+        "id": "89",
+        "question": "What is AWS Transfer Family?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for transferring files to and from AWS S3 and other storage systems",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for transferring files to and from AWS S3 and other storage systems.",
+        "explanation": "AWS Transfer Family provides fully managed Secure File Transfer Protocol (SFTP), FTPS (FTP Secure), and FTP (File Transfer Protocol) services."
+      },
+      {
+        "id": "90",
+        "question": "What is AWS Device Farm?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for testing mobile apps on real devices",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for testing mobile apps on real devices.",
+        "explanation": "AWS Device Farm is a mobile app testing service that enables you to test your Android, iOS, and web apps on real devices in the AWS Cloud."
+      },
+      {
+        "id": "91",
+        "question": "What is AWS OpsWorks?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for automating the deployment and management of applications",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for automating the deployment and management of applications.",
+        "explanation": "AWS OpsWorks is a configuration management service that provides managed instances of Chef and Puppet."
+      },
+      {
+        "id": "92",
+        "question": "What is AWS IoT Greengrass?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for extending AWS IoT functionality to edge devices",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for extending AWS IoT functionality to edge devices.",
+        "explanation": "AWS IoT Greengrass allows you to run local compute, messaging, and data caching for connected devices in a secure environment."
+      },
+      {
+        "id": "93",
+        "question": "What is Amazon Aurora?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A high-performance relational database engine",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A high-performance relational database engine.",
+        "explanation": "Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud."
+      },
+      {
+        "id": "94",
+        "question": "What is AWS AppConfig?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for managing application configurations",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for managing application configurations.",
+        "explanation": "AWS AppConfig enables you to quickly deploy application configurations across applications hosted on AWS."
+      },
+      {
+        "id": "95",
+        "question": "What is Amazon FSx for Lustre?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A fully managed file storage service for Lustre workloads",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fully managed file storage service for Lustre workloads.",
+        "explanation": "Amazon FSx for Lustre provides high-performance file storage for compute-intensive workloads."
+      },
+      {
+        "id": "96",
+        "question": "What is AWS Glue?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A fully managed extract, transform, and load (ETL) service",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fully managed extract, transform, and load (ETL) service.",
+        "explanation": "AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development."
+      },
+      {
+        "id": "97",
+        "question": "What is AWS Elemental MediaPackage?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for processing and delivering video content",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for processing and delivering video content.",
+        "explanation": "AWS Elemental MediaPackage reliably prepares and protects your live and on-demand video content for delivery over the Internet."
+      },
+      {
+        "id": "98",
+        "question": "What is Amazon MQ?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A managed message broker service",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A managed message broker service.",
+        "explanation": "Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that makes it easy to set up and operate message brokers in the cloud."
+      },
+      {
+        "id": "99",
+        "question": "What is AWS App Mesh?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for monitoring and controlling microservices",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for monitoring and controlling microservices.",
+        "explanation": "AWS App Mesh is a service mesh that makes it easy to monitor and control microservices running on AWS."
+      },
+      {
+        "id": "100",
+        "question": "What is AWS Database Migration Service (DMS)?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for migrating databases to AWS",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for migrating databases to AWS.",
+        "explanation": "AWS Database Migration Service (DMS) helps you migrate databases to AWS quickly and securely."
+      },
+      {
+        "id": "101",
+        "question": "What is Amazon Macie?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for monitoring and securing data stored in Amazon S3",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for monitoring and securing data stored in Amazon S3.",
+        "explanation": "Amazon Macie is a security service that uses machine learning to automatically discover, classify, and protect sensitive data stored in Amazon S3."
+      },
+      {
+        "id": "102",
+        "question": "What is Amazon Detective?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for analyzing, investigating, and identifying security issues",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for analyzing, investigating, and identifying security issues.",
+        "explanation": "Amazon Detective makes it easy to analyze, investigate, and identify the root cause of security issues or suspicious activities."
+      },
+      {
+        "id": "103",
+        "question": "What is AWS Snowball?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A service for petabyte-scale data transfer to and from AWS",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A service for petabyte-scale data transfer to and from AWS.",
+        "explanation": "AWS Snowball is a petabyte-scale data transfer device used to transfer large amounts of data into and out of AWS."
+      },
+      {
+        "id": "104",
+        "question": "What is AWS Storage Gateway?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A hybrid cloud storage service",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A hybrid cloud storage service.",
+        "explanation": "AWS Storage Gateway is a hybrid cloud storage service that enables on-premises applications to seamlessly use AWS cloud storage."
+      },
+      {
+        "id": "105",
+        "question": "What is Amazon Neptune?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A fast, reliable graph database service",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fast, reliable graph database service.",
+        "explanation": "Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets."
+      },
+      {
+        "id": "106",
+        "question": "What is Amazon API Gateway?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A fully managed service for creating, publishing, maintaining, monitoring, and securing APIs",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fully managed service for creating, publishing, maintaining, monitoring, and securing APIs.",
+        "explanation": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale."
+      },
+      {
+        "id": "107",
+        "question": "What is AWS Deep Learning AMIs?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "Amazon Machine Images (AMIs) pre-installed with deep learning frameworks",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "Amazon Machine Images (AMIs) pre-installed with deep learning frameworks.",
+        "explanation": "AWS Deep Learning AMIs provide pre-configured environments for deep learning on Amazon EC2."
+      },
+      {
+        "id": "108",
+        "question": "What is AWS Fargate?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A serverless compute engine for containers",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A serverless compute engine for containers.",
+        "explanation": "AWS Fargate is a serverless compute engine for containers that allows you to run containers without managing servers or clusters."
+      },
+      {
+        "id": "109",
+        "question": "What is AWS Direct Connect?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A dedicated network connection between your network and AWS",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A dedicated network connection between your network and AWS.",
+        "explanation": "AWS Direct Connect is a dedicated network connection between your network and AWS."
+      },
+      {
+        "id": "110",
+        "question": "What is AWS Batch?",
+        "choices": [
+          "A service for securely transferring files over the internet into and out of Amazon S3",
+          "A service for managing encryption keys",
+          "A fully managed batch processing service",
+          "A service for automating the deployment and management of AWS resources"
+        ],
+        "correct_answer": "A fully managed batch processing service.",
+        "explanation": "AWS Batch allows you to run batch computing workloads at scale."
+      },
+      
+
+  ]
+  
